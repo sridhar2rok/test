@@ -1,0 +1,9 @@
+
+Demos and Example scripts for SR040
+
+license(s)          : NXP Proprietary EULA
+License File        : See EULA.pdf in root of the folder
+Distribution Type   : Binary and Source
+Version             : Same as release package
+Location            : uwbiot-top\demos\SR040
+Source URL          : NA

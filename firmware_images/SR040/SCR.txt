@@ -1,0 +1,9 @@
+
+SR040 Firmware and DSP Binaries
+
+license(s)          : NXP Proprietary EULA
+License File        : See EULA.pdf in root of the folder
+Distribution Type   : Binary
+Version             : Same as release package
+Location            : uwbiot-top\firmware_images\SR040
+Source URL          : NA

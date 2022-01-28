@@ -1,0 +1,99 @@
+/*
+ *
+ * Copyright 2018-2020 NXP.
+ *
+ * NXP Confidential. This software is owned or controlled by NXP and may only be
+ * used strictly in accordance with the applicable license terms. By expressly
+ * accepting such terms or by downloading,installing, activating and/or otherwise
+ * using the software, you are agreeing that you have read,and that you agree to
+ * comply with and are bound by, such license terms. If you do not agree to be
+ * bound by the applicable license terms, then you may not retain, install, activate
+ * or otherwise use the software.
+ *
+ */
+
+#ifndef _APP_CONFIG_PARAMS_
+#define _APP_CONFIG_PARAMS_
+
+#include "UwbApi.h"
+#include "uci_defs.h"
+#include "uci_ext_defs.h"
+#include "uci_test_defs.h"
+
+const UINT8 uciRangingParamIds[] = {
+    /* Application Configuration Parameters */
+    UCI_PARAM_ID_DEVICE_ROLE,     /* DEVICE_ROLE                  */
+    UCI_PARAM_ID_MULTI_NODE_MODE, /* MULTI_NODE_MODE              */
+#if (UWBIOT_UWBD_SR100T)
+    UCI_PARAM_ID_MAC_ADDRESS_MODE, /* MAC_ADDR_MODE                */
+#endif
+    UCI_PARAM_ID_NO_OF_CONTROLEES,   /* NO_OF_CONTROLEES             */
+    UCI_PARAM_ID_DEVICE_MAC_ADDRESS, /* DEVICE_MAC_ADDRESS           */
+    UCI_PARAM_ID_DST_MAC_ADDRESS,    /* DST_MAC_ADDRESS              */
+    UCI_PARAM_ID_DEVICE_TYPE,        /* DEVICE_TYPE                  */
+};
+
+const UINT8 app_config_mapping[] = {UCI_PARAM_ID_DEVICE_TYPE,
+    UCI_PARAM_ID_RANGING_METHOD,
+    UCI_PARAM_ID_STS_CONFIG,
+    UCI_PARAM_ID_MULTI_NODE_MODE,
+    UCI_PARAM_ID_CHANNEL_NUMBER,
+    UCI_PARAM_ID_NO_OF_CONTROLEES,
+    UCI_PARAM_ID_DEVICE_MAC_ADDRESS,
+    UCI_PARAM_ID_DST_MAC_ADDRESS,
+    UCI_PARAM_ID_SLOT_DURATION,
+    UCI_PARAM_ID_RANGING_INTERVAL,
+    UCI_PARAM_ID_STS_INDEX,
+    UCI_PARAM_ID_MAC_FCS_TYPE,
+    UCI_PARAM_ID_RANGING_ROUND_PHASE_CONTROL,
+    UCI_PARAM_ID_AOA_RESULT_REQ,
+    UCI_PARAM_ID_RNG_DATA_NTF,
+    UCI_PARAM_ID_RNG_DATA_NTF_PROXIMITY_NEAR,
+    UCI_PARAM_ID_RNG_DATA_NTF_PROXIMITY_FAR,
+    UCI_PARAM_ID_DEVICE_ROLE,
+    UCI_PARAM_ID_RFRAME_CONFIG,
+    UCI_PARAM_ID_RX_MODE,
+    UCI_PARAM_ID_PREAMBLE_CODE_INDEX,
+    UCI_PARAM_ID_SFD_ID,
+    UCI_PARAM_ID_PSDU_DATA_RATE,
+    UCI_PARAM_ID_PREAMBLE_DURATION,
+    UCI_PARAM_ID_RX_ANTENNA_PAIR_SELECTION,
+    UCI_PARAM_ID_MAC_CFG,
+    UCI_PARAM_ID_RANGING_TIME_STRUCT,
+    UCI_PARAM_ID_SLOTS_PER_RR,
+    UCI_PARAM_ID_TX_ADAPTIVE_PAYLOAD_POWER,
+    UCI_PARAM_ID_TX_ANTENNA_SELECTION,
+    UCI_PARAM_ID_RESPONDER_SLOT_INDEX,
+    UCI_PARAM_ID_PRF_MODE,
+    UCI_PARAM_ID_MAX_CONTENTION_PHASE_LEN,
+    UCI_PARAM_ID_CONTENTION_PHASE_UPDATE_LEN,
+    UCI_PARAM_ID_SCHEDULED_MODE,
+    UCI_PARAM_ID_KEY_ROTATION,
+    UCI_PARAM_ID_KEY_ROTATION_RATE,
+    UCI_PARAM_ID_SESSION_PRIORITY,
+    UCI_PARAM_ID_MAC_ADDRESS_MODE,
+    UCI_PARAM_ID_VENDOR_ID,
+    UCI_PARAM_ID_STATIC_STS_IV,
+    UCI_PARAM_ID_NUMBER_OF_STS_SEGMENTS,
+    UCI_PARAM_ID_MAX_RR_RETRY,
+    UCI_PARAM_ID_UWB_INITIATION_TIME,
+    UCI_PARAM_ID_RANGING_ROUND_HOPPING,
+    UCI_PARAM_ID_BLOCK_STRIDING,
+    UCI_PARAM_ID_RESULT_REPORT_CONFIG,
+    UCI_PARAM_ID_IN_BAND_TERMINATION_ATTEMPT_COUNT,
+    UCI_PARAM_ID_SUB_SESSION_ID,
+    UCI_PARAM_ID_TDOA_REPORT_FREQUENCY,
+    UCI_PARAM_ID_BLINK_RANDOM_INTERVAL};
+
+const UINT8 ext_app_config_mapping[] = {
+    UCI_EXT_PARAM_ID_STS_INDEX_RESTART,
+    UCI_EXT_PARAM_ID_TX_POWER_ID,
+    UCI_EXT_PARAM_ID_RX_PHY_LOGGING_ENBL,
+    UCI_EXT_PARAM_ID_TX_PHY_LOGGING_ENBL,
+    UCI_EXT_PARAM_ID_RX_RADIO_CFG_IDXS,
+    UCI_EXT_PARAM_ID_TX_RADIO_CFG_IDXS,
+    UCI_EXT_PARAM_ID_TX_MAX_BLOCK_NUM,
+    UCI_EXT_PARAM_ID_NBIC_CONF_ID,
+};
+
+#endif

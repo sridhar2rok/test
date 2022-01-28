@@ -1,0 +1,5 @@
+queuelib
+pyserial
+threaded
+matplotlib
+

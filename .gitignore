@@ -1,0 +1,14 @@
+
+__pycache__/
+*.bak
+*.pyc
+_apis_rst/
+.settings/
+build/
+_build/
+_rel_pkg/
+*.zip
+_rel_pkg.txt
+*~
+review_current.xml
+review_current.xls

@@ -1,0 +1,1108 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?fileVersion 4.0.0?><cproject storage_type_id="org.eclipse.cdt.core.XmlProjectDescriptionStorage">
+	<storageModule moduleId="org.eclipse.cdt.core.settings">
+		<cconfiguration id="com.crt.advproject.config.exe.debug.1870856720">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="com.crt.advproject.config.exe.debug.1870856720" moduleId="org.eclipse.cdt.core.settings" name="Debug">
+				<externalSettings/>
+				<extensions>
+					<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.GNU_ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactExtension="axf" artifactName="${ProjName}" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.exe" buildProperties="org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.exe" cleanCommand="rm -rf" description="Debug build" errorParsers="org.eclipse.cdt.core.CWDLocator;org.eclipse.cdt.core.GmakeErrorParser;org.eclipse.cdt.core.GCCErrorParser;org.eclipse.cdt.core.GLDErrorParser;org.eclipse.cdt.core.GASErrorParser" id="com.crt.advproject.config.exe.debug.1870856720" name="Debug" parent="com.crt.advproject.config.exe.debug" postannouncebuildStep="Performing post-build steps" postbuildStep="arm-none-eabi-size &quot;${BuildArtifactFileName}&quot; ; python &quot;../../../scripts/dk6_image_tool_py3.py&quot;  ${ENV_IMAGE_TOOL_OPTS} ${BuildArtifactFileName} ; arm-none-eabi-objcopy -v -O binary &quot;${BuildArtifactFileName}&quot; &quot;${BuildArtifactFileBaseName}.bin&quot;">
+					<folderInfo id="com.crt.advproject.config.exe.debug.1870856720." name="/" resourcePath="">
+						<toolChain id="com.crt.advproject.toolchain.exe.debug.1796705680" name="NXP MCU Tools" superClass="com.crt.advproject.toolchain.exe.debug">
+							<targetPlatform binaryParser="org.eclipse.cdt.core.ELF;org.eclipse.cdt.core.GNU_ELF" id="com.crt.advproject.platform.exe.debug.264670159" name="ARM-based MCU (Debug)" superClass="com.crt.advproject.platform.exe.debug"/>
+							<builder buildPath="${workspace_loc:/QN9090_SR040}/Debug" id="com.crt.advproject.builder.exe.debug.402817968" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="Gnu Make Builder" superClass="com.crt.advproject.builder.exe.debug"/>
+							<tool id="com.crt.advproject.cpp.exe.debug.1688587247" name="MCU C++ Compiler" superClass="com.crt.advproject.cpp.exe.debug">
+								<option id="com.crt.advproject.cpp.hdrlib.1191258315" name="Library headers" superClass="com.crt.advproject.cpp.hdrlib" useByScannerDiscovery="false"/>
+								<option id="com.crt.advproject.cpp.fpu.274929522" name="Floating point" superClass="com.crt.advproject.cpp.fpu" useByScannerDiscovery="true" value="com.crt.advproject.cpp.fpu.none" valueType="enumerated"/>
+								<option id="com.crt.advproject.cpp.thumb.1159909549" name="Thumb mode" superClass="com.crt.advproject.cpp.thumb" useByScannerDiscovery="false" value="true" valueType="boolean"/>
+								<option id="com.crt.advproject.cpp.specs.752358220" name="Specs" superClass="com.crt.advproject.cpp.specs" useByScannerDiscovery="false" value="com.crt.advproject.cpp.specs.newlibnano" valueType="enumerated"/>
+								<option id="com.crt.advproject.cpp.arch.788857045" name="Architecture" superClass="com.crt.advproject.cpp.arch" useByScannerDiscovery="true" value="com.crt.advproject.cpp.target.cm4" valueType="enumerated"/>
+								<option id="com.crt.advproject.cpp.misc.dialect.8961196" name="Language standard" superClass="com.crt.advproject.cpp.misc.dialect" useByScannerDiscovery="true"/>
+								<option id="gnu.cpp.compiler.option.dialect.flags.2065050396" name="Other dialect flags" superClass="gnu.cpp.compiler.option.dialect.flags" useByScannerDiscovery="true"/>
+								<option id="gnu.cpp.compiler.option.preprocessor.nostdinc.594338750" name="Do not search system directories (-nostdinc)" superClass="gnu.cpp.compiler.option.preprocessor.nostdinc" useByScannerDiscovery="false"/>
+								<option id="gnu.cpp.compiler.option.preprocessor.preprocess.1386988384" name="Preprocess only (-E)" superClass="gnu.cpp.compiler.option.preprocessor.preprocess" useByScannerDiscovery="false"/>
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="gnu.cpp.compiler.option.preprocessor.def.156387427" name="Defined symbols (-D)" superClass="gnu.cpp.compiler.option.preprocessor.def" useByScannerDiscovery="false" valueType="definedSymbols">
+									<listOptionValue builtIn="false" value="CPU_QN9090HN"/>
+									<listOptionValue builtIn="false" value="SUPPORT_FOR_BLE=1"/>
+									<listOptionValue builtIn="false" value="PRINTF_ADVANCED_ENABLE=1"/>
+									<listOptionValue builtIn="false" value="CPU_QN9090HN_cm4"/>
+									<listOptionValue builtIn="false" value="CPU_QN9090"/>
+									<listOptionValue builtIn="false" value="__APP_DEBUG"/>
+									<listOptionValue builtIn="false" value="__ASSERT_LL_DEBUG"/>
+									<listOptionValue builtIn="false" value="__CPU_JN518X_REV=1"/>
+									<listOptionValue builtIn="false" value="CR_PRINTF_CHAR"/>
+									<listOptionValue builtIn="false" value="SDK_DEBUGCONSOLE=1"/>
+									<listOptionValue builtIn="false" value="CR_INTEGER_PRINTF"/>
+									<listOptionValue builtIn="false" value="QN9090DK6"/>
+									<listOptionValue builtIn="false" value="DK6"/>
+									<listOptionValue builtIn="false" value="CPU_JN518X"/>
+									<listOptionValue builtIn="false" value="CFG_BLE_PRJ=1"/>
+									<listOptionValue builtIn="false" value="ENABLE_RAM_VECTOR_TABLE=1"/>
+									<listOptionValue builtIn="false" value="gSupportBle=1"/>
+									<listOptionValue builtIn="false" value="FSL_RTOS_FREE_RTOS"/>
+									<listOptionValue builtIn="false" value="PRINTF_FLOAT_ENABLE=1"/>
+									<listOptionValue builtIn="false" value="__MCUXPRESSO"/>
+									<listOptionValue builtIn="false" value="__USE_CMSIS"/>
+									<listOptionValue builtIn="false" value="DEBUG"/>
+									<listOptionValue builtIn="false" value="__NEWLIB__"/>
+								</option>
+								<option id="gnu.cpp.compiler.option.preprocessor.undef.1903593037" name="Undefined symbols (-U)" superClass="gnu.cpp.compiler.option.preprocessor.undef" useByScannerDiscovery="false"/>
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="gnu.cpp.compiler.option.include.paths.1555271960" name="Include paths (-I)" superClass="gnu.cpp.compiler.option.include.paths" useByScannerDiscovery="false" valueType="includePath">
+									<listOptionValue builtIn="false" value="../../../binaries/UWBD/SR040/"/>
+									<listOptionValue builtIn="false" value="../../../demos/rhodes/cdc_app"/>
+									<listOptionValue builtIn="false" value="../../../demos/SR040/demo_tracker_ble/handlers/inc"/>
+									<listOptionValue builtIn="false" value="../../../boards/Host/QN9090_SR040_TR3"/>
+									<listOptionValue builtIn="false" value="../../../boards/QN9090_SR040_TR3_SPI"/>
+									<listOptionValue builtIn="false" value="../../../boards/TML/SPI"/>
+									<listOptionValue builtIn="false" value="../../../demos/common"/>
+									<listOptionValue builtIn="false" value="../../../demos/demo_qn9090"/>
+									<listOptionValue builtIn="false" value="../../../demos/SR040/demo_tracker_ble/inc"/>
+									<listOptionValue builtIn="false" value="../../../demos/SR040/demo_swup_update_fw"/>
+									<listOptionValue builtIn="false" value="../../../demos/SR040/demo_swup_update_dsp"/>
+									<listOptionValue builtIn="false" value="../../../demos/pnp"/>
+									<listOptionValue builtIn="false" value="../../../demos/pnp/QN9090"/>
+									<listOptionValue builtIn="false" value="../../../ext/boards/qn9090/CMSIS/Include"/>
+									<listOptionValue builtIn="false" value="../../../ext/boards/qn9090/components"/>
+									<listOptionValue builtIn="false" value="../../../ext/boards/qn9090/components/uart"/>
+									<listOptionValue builtIn="false" value="../../../ext/boards/qn9090/devices/QN9090"/>
+									<listOptionValue builtIn="false" value="../../../ext/boards/qn9090/devices/QN9090/drivers"/>
+									<listOptionValue builtIn="false" value="../../../ext/boards/qn9090/devices/QN9090/gcc"/>
+									<listOptionValue builtIn="false" value="../../../ext/boards/qn9090/devices/QN9090/utilities"/>
+									<listOptionValue builtIn="false" value="../../../ext/freertos/hooks"/>
+									<listOptionValue builtIn="false" value="../../../ext/freertos/include"/>
+									<listOptionValue builtIn="false" value="../../../ext/freertos/portable/GCC/ARM_CM4FQN9090"/>
+									<listOptionValue builtIn="false" value="../../../ext/freertos/portable/MemMang"/>
+									<listOptionValue builtIn="false" value="../../../firmware_images/SR040/"/>
+									<listOptionValue builtIn="false" value="../../../libs/halimpl/gki/common"/>
+									<listOptionValue builtIn="false" value="../../../libs/halimpl/gki/freertos"/>
+									<listOptionValue builtIn="false" value="../../../libs/halimpl/gki/ulinux"/>
+									<listOptionValue builtIn="false" value="../../../libs/halimpl/hal"/>
+									<listOptionValue builtIn="false" value="../../../libs/halimpl/inc"/>
+									<listOptionValue builtIn="false" value="../../../libs/halimpl/log"/>
+									<listOptionValue builtIn="false" value="../../../libs/halimpl/osal"/>
+									<listOptionValue builtIn="false" value="../../../libs/halimpl/tml"/>
+									<listOptionValue builtIn="false" value="../../../libs/halimpl/transport/SPI"/>
+									<listOptionValue builtIn="false" value="../../../libs/halimpl/transport/SPI/qn9090"/>
+									<listOptionValue builtIn="false" value="../../../libs/halimpl/transport/SPI/common"/>
+									<listOptionValue builtIn="false" value="../../../libs/halimpl/utils"/>
+									<listOptionValue builtIn="false" value="../../../libs/halimpl/utils/SR040"/>
+									<listOptionValue builtIn="false" value="../../../libs/uci-core/uci/include"/>
+									<listOptionValue builtIn="false" value="../../../libs/uci-core/uci/include/SR040"/>
+									<listOptionValue builtIn="false" value="../../../libs/uci-core/uwa/dm"/>
+									<listOptionValue builtIn="false" value="../../../libs/uci-core/uwa/include"/>
+									<listOptionValue builtIn="false" value="../../../libs/uci-core/uwa/sys"/>
+									<listOptionValue builtIn="false" value="../../../libs/uci-core/uwb/include"/>
+									<listOptionValue builtIn="false" value="../../../libs/uci-core/uwb/uci"/>
+									<listOptionValue builtIn="false" value="../../../libs/uci-core/uwb/uwb"/>
+									<listOptionValue builtIn="false" value="../../../libs/uwb-iot/swup/"/>
+									<listOptionValue builtIn="false" value="../../../libs/uwb-iot/uwb_api/Api"/>
+									<listOptionValue builtIn="false" value="../../../libs/uwb-iot/uwb_api/Api/SR040"/>
+									<listOptionValue builtIn="false" value="../../../libs/uwb-iot/uwb_api/PrintUtility"/>
+									<listOptionValue builtIn="false" value="../../../libs/uwb-iot/uwb_api/PrintUtility/SR040"/>
+									<listOptionValue builtIn="false" value="../../../libs/uwb-iot/uwb_api/Types"/>
+									<listOptionValue builtIn="false" value="../../../libs/uwb-iot/uwb_api/Types/SR040"/>
+									<listOptionValue builtIn="false" value="../../../libs/uwb-iot/uwb_core/adaptation"/>
+									<listOptionValue builtIn="false" value="../../../libs/uwb-iot/uwb_core/gki/common"/>
+									<listOptionValue builtIn="false" value="../../../libs/uwb-iot/uwb_core/gki/freertos"/>
+									<listOptionValue builtIn="false" value="../../../libs/uwb-iot/uwb_core/hal/include"/>
+									<listOptionValue builtIn="false" value="../../../libs/uwb-iot/uwb_core/include"/>
+									<listOptionValue builtIn="false" value="../../../ext/boards/qn9090/bluetooth/common/inc"/>
+									<listOptionValue builtIn="false" value="../../../ext/boards/qn9090/bluetooth/common/gatt_db/inc"/>
+									<listOptionValue builtIn="false" value="../../../ext/boards/qn9090/bluetooth/common/gatt_db/macros/inc"/>
+									<listOptionValue builtIn="false" value="../../../ext/boards/qn9090/bluetooth/controller/config/inc"/>
+									<listOptionValue builtIn="false" value="../../../ext/boards/qn9090/bluetooth/controller/interface/inc"/>
+									<listOptionValue builtIn="false" value="../../../ext/boards/qn9090/bluetooth/framework/Common/inc"/>
+									<listOptionValue builtIn="false" value="../../../ext/boards/qn9090/bluetooth/framework/Flash/inc"/>
+									<listOptionValue builtIn="false" value="../../../ext/boards/qn9090/bluetooth/framework/FunctionLib/inc"/>
+									<listOptionValue builtIn="false" value="../../../ext/boards/qn9090/bluetooth/framework/GPIO/inc"/>
+									<listOptionValue builtIn="false" value="../../../ext/boards/qn9090/bluetooth/framework/Keyboard/inc"/>
+									<listOptionValue builtIn="false" value="../../../ext/boards/qn9090/bluetooth/framework/LED/inc"/>
+									<listOptionValue builtIn="false" value="../../../ext/boards/qn9090/bluetooth/framework/Lists/inc"/>
+									<listOptionValue builtIn="false" value="../../../ext/boards/qn9090/bluetooth/framework/Logging/inc"/>
+									<listOptionValue builtIn="false" value="../../../ext/boards/qn9090/bluetooth/framework/LowPower/inc"/>
+									<listOptionValue builtIn="false" value="../../../ext/boards/qn9090/bluetooth/framework/MemManager/inc"/>
+									<listOptionValue builtIn="false" value="../../../ext/boards/qn9090/bluetooth/framework/Messaging/inc"/>
+									<listOptionValue builtIn="false" value="../../../ext/boards/qn9090/bluetooth/framework/ModuleInfo/inc"/>
+									<listOptionValue builtIn="false" value="../../../ext/boards/qn9090/bluetooth/framework/MWSCoexistence/inc"/>
+									<listOptionValue builtIn="false" value="../../../ext/boards/qn9090/bluetooth/framework/NVM/inc"/>
+									<listOptionValue builtIn="false" value="../../../ext/boards/qn9090/bluetooth/framework/OSAbstraction/inc"/>
+									<listOptionValue builtIn="false" value="../../../ext/boards/qn9090/bluetooth/framework/Panic/inc"/>
+									<listOptionValue builtIn="false" value="../../../ext/boards/qn9090/bluetooth/framework/PDM/inc"/>
+									<listOptionValue builtIn="false" value="../../../ext/boards/qn9090/bluetooth/framework/Reset/inc"/>
+									<listOptionValue builtIn="false" value="../../../ext/boards/qn9090/bluetooth/framework/RNG/inc"/>
+									<listOptionValue builtIn="false" value="../../../ext/boards/qn9090/bluetooth/framework/SecLib/inc"/>
+									<listOptionValue builtIn="false" value="../../../ext/boards/qn9090/bluetooth/framework/SerialManager/inc"/>
+									<listOptionValue builtIn="false" value="../../../ext/boards/qn9090/bluetooth/framework/TimersManager/inc"/>
+									<listOptionValue builtIn="false" value="../../../ext/boards/qn9090/bluetooth/framework/XCVR/DK6/inc"/>
+									<listOptionValue builtIn="false" value="../../../ext/boards/qn9090/bluetooth/hci_transport/inc"/>
+									<listOptionValue builtIn="false" value="../../../ext/boards/qn9090/bluetooth/host/config/inc"/>
+									<listOptionValue builtIn="false" value="../../../ext/boards/qn9090/bluetooth/host/interface/inc"/>
+									<listOptionValue builtIn="false" value="../../../ext/boards/qn9090/bluetooth/profiles/battery/inc"/>
+									<listOptionValue builtIn="false" value="../../../ext/boards/qn9090/bluetooth/profiles/device_info/inc"/>
+									<listOptionValue builtIn="false" value="../../../ext/boards/qn9090/bluetooth/profiles/private_profile/inc"/>
+								</option>
+								<option id="gnu.cpp.compiler.option.include.files.298292869" name="Include files (-include)" superClass="gnu.cpp.compiler.option.include.files" useByScannerDiscovery="false"/>
+								<option id="com.crt.advproject.cpp.exe.debug.option.optimization.level.904898891" name="Optimization Level" superClass="com.crt.advproject.cpp.exe.debug.option.optimization.level" useByScannerDiscovery="true"/>
+								<option id="gnu.cpp.compiler.option.optimization.flags.1142679237" name="Other optimization flags" superClass="gnu.cpp.compiler.option.optimization.flags" useByScannerDiscovery="false" value="-fno-common" valueType="string"/>
+								<option id="com.crt.advproject.cpp.exe.debug.option.debugging.level.139303731" name="Debug Level" superClass="com.crt.advproject.cpp.exe.debug.option.debugging.level" useByScannerDiscovery="false"/>
+								<option id="gnu.cpp.compiler.option.debugging.other.122834843" name="Other debugging flags" superClass="gnu.cpp.compiler.option.debugging.other" useByScannerDiscovery="false"/>
+								<option id="gnu.cpp.compiler.option.debugging.prof.923983398" name="Generate prof information (-p)" superClass="gnu.cpp.compiler.option.debugging.prof" useByScannerDiscovery="false"/>
+								<option id="gnu.cpp.compiler.option.debugging.gprof.1459309163" name="Generate gprof information (-pg)" superClass="gnu.cpp.compiler.option.debugging.gprof" useByScannerDiscovery="false"/>
+								<option id="gnu.cpp.compiler.option.debugging.codecov.318957716" name="Generate gcov information (-ftest-coverage -fprofile-arcs)" superClass="gnu.cpp.compiler.option.debugging.codecov" useByScannerDiscovery="false"/>
+								<option id="gnu.cpp.compiler.option.warnings.syntax.1574588180" name="Check syntax only (-fsyntax-only)" superClass="gnu.cpp.compiler.option.warnings.syntax" useByScannerDiscovery="false"/>
+								<option id="gnu.cpp.compiler.option.warnings.pedantic.1766556906" name="Pedantic (-pedantic)" superClass="gnu.cpp.compiler.option.warnings.pedantic" useByScannerDiscovery="false"/>
+								<option id="gnu.cpp.compiler.option.warnings.pedantic.error.601503197" name="Pedantic warnings as errors (-pedantic-errors)" superClass="gnu.cpp.compiler.option.warnings.pedantic.error" useByScannerDiscovery="false"/>
+								<option id="gnu.cpp.compiler.option.warnings.nowarn.1071334866" name="Inhibit all warnings (-w)" superClass="gnu.cpp.compiler.option.warnings.nowarn" useByScannerDiscovery="false"/>
+								<option id="gnu.cpp.compiler.option.warnings.allwarn.1005736653" name="All warnings (-Wall)" superClass="gnu.cpp.compiler.option.warnings.allwarn" useByScannerDiscovery="false"/>
+								<option id="gnu.cpp.compiler.option.warnings.extrawarn.334877284" name="Extra warnings (-Wextra)" superClass="gnu.cpp.compiler.option.warnings.extrawarn" useByScannerDiscovery="false"/>
+								<option id="gnu.cpp.compiler.option.warnings.toerrors.1539388132" name="Warnings as errors (-Werror)" superClass="gnu.cpp.compiler.option.warnings.toerrors" useByScannerDiscovery="false"/>
+								<option id="gnu.cpp.compiler.option.warnings.wconversion.582283189" name="Implicit conversion warnings (-Wconversion)" superClass="gnu.cpp.compiler.option.warnings.wconversion" useByScannerDiscovery="false"/>
+								<option id="gnu.cpp.compiler.option.other.other.1448732374" name="Other flags" superClass="gnu.cpp.compiler.option.other.other" useByScannerDiscovery="false" value="-c -ffunction-sections -fdata-sections -ffreestanding -fno-builtin -fno-rtti -fno-exceptions  -include &quot;${ProjDirPath}../../../boards/Host/QN9090_SR040_TR3/app_preinclude.h&quot;" valueType="string"/>
+								<option id="gnu.cpp.compiler.option.other.verbose.1540811260" name="Verbose (-v)" superClass="gnu.cpp.compiler.option.other.verbose" useByScannerDiscovery="false"/>
+								<option id="gnu.cpp.compiler.option.other.pic.356015049" name="Position Independent Code (-fPIC)" superClass="gnu.cpp.compiler.option.other.pic" useByScannerDiscovery="false"/>
+								<option id="com.crt.advproject.cpp.lto.461264504" name="Enable Link-time optimization (-flto)" superClass="com.crt.advproject.cpp.lto" useByScannerDiscovery="false"/>
+								<option id="com.crt.advproject.cpp.lto.fat.401709341" name="Fat lto objects (-ffat-lto-objects)" superClass="com.crt.advproject.cpp.lto.fat" useByScannerDiscovery="false"/>
+								<option id="com.crt.advproject.cpp.merge.constants.69995304" name="Merge Identical Constants (-fmerge-constants)" superClass="com.crt.advproject.cpp.merge.constants" useByScannerDiscovery="false"/>
+								<option id="com.crt.advproject.cpp.prefixmap.609193185" name="Remove path from __FILE__ (-fmacro-prefix-map)" superClass="com.crt.advproject.cpp.prefixmap" useByScannerDiscovery="false"/>
+								<option id="com.crt.advproject.cpp.thumbinterwork.1399296532" name="Enable Thumb interworking" superClass="com.crt.advproject.cpp.thumbinterwork" useByScannerDiscovery="false"/>
+								<option id="com.crt.advproject.cpp.securestate.631814196" name="TrustZone Project Type" superClass="com.crt.advproject.cpp.securestate" useByScannerDiscovery="false"/>
+								<option id="com.crt.advproject.cpp.stackusage.513182942" name="Generate Stack Usage Info (-fstack-usage)" superClass="com.crt.advproject.cpp.stackusage" useByScannerDiscovery="false"/>
+								<option id="com.crt.advproject.cpp.config.1507900699" name="Obsolete (Config)" superClass="com.crt.advproject.cpp.config" useByScannerDiscovery="false"/>
+								<option id="com.crt.advproject.cpp.store.290565012" name="Obsolete (Store)" superClass="com.crt.advproject.cpp.store" useByScannerDiscovery="false"/>
+								<inputType id="com.crt.advproject.compiler.cpp.input.290778450" superClass="com.crt.advproject.compiler.cpp.input"/>
+							</tool>
+							<tool id="com.crt.advproject.gcc.exe.debug.1269606695" name="MCU C Compiler" superClass="com.crt.advproject.gcc.exe.debug">
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="gnu.c.compiler.option.preprocessor.def.symbols.65132664" name="Defined symbols (-D)" superClass="gnu.c.compiler.option.preprocessor.def.symbols" useByScannerDiscovery="false" valueType="definedSymbols">
+									<listOptionValue builtIn="false" value="CPU_QN9090HN"/>
+									<listOptionValue builtIn="false" value="SUPPORT_FOR_BLE=1"/>
+									<listOptionValue builtIn="false" value="PRINTF_ADVANCED_ENABLE=1"/>
+									<listOptionValue builtIn="false" value="CPU_QN9090HN_cm4"/>
+									<listOptionValue builtIn="false" value="CPU_QN9090"/>
+									<listOptionValue builtIn="false" value="__APP_DEBUG"/>
+									<listOptionValue builtIn="false" value="__ASSERT_LL_DEBUG"/>
+									<listOptionValue builtIn="false" value="__CPU_JN518X_REV=1"/>
+									<listOptionValue builtIn="false" value="CR_PRINTF_CHAR"/>
+									<listOptionValue builtIn="false" value="SDK_DEBUGCONSOLE=1"/>
+									<listOptionValue builtIn="false" value="CR_INTEGER_PRINTF"/>
+									<listOptionValue builtIn="false" value="QN9090DK6"/>
+									<listOptionValue builtIn="false" value="DK6"/>
+									<listOptionValue builtIn="false" value="CPU_JN518X"/>
+									<listOptionValue builtIn="false" value="CFG_BLE_PRJ=1"/>
+									<listOptionValue builtIn="false" value="ENABLE_RAM_VECTOR_TABLE=1"/>
+									<listOptionValue builtIn="false" value="gSupportBle=1"/>
+									<listOptionValue builtIn="false" value="FSL_RTOS_FREE_RTOS"/>
+									<listOptionValue builtIn="false" value="PRINTF_FLOAT_ENABLE=1"/>
+									<listOptionValue builtIn="false" value="__MCUXPRESSO"/>
+									<listOptionValue builtIn="false" value="__USE_CMSIS"/>
+									<listOptionValue builtIn="false" value="DEBUG"/>
+									<listOptionValue builtIn="false" value="__NEWLIB__"/>
+								</option>
+								<option id="com.crt.advproject.gcc.thumb.2120328062" name="Thumb mode" superClass="com.crt.advproject.gcc.thumb" useByScannerDiscovery="false" value="true" valueType="boolean"/>
+								<option id="com.crt.advproject.gcc.hdrlib.2108128523" name="Library headers" superClass="com.crt.advproject.gcc.hdrlib" useByScannerDiscovery="false" value="com.crt.advproject.gcc.hdrlib.newlibnano" valueType="enumerated"/>
+								<option id="com.crt.advproject.gcc.specs.315930229" name="Specs" superClass="com.crt.advproject.gcc.specs" useByScannerDiscovery="false" value="com.crt.advproject.gcc.specs.newlibnano" valueType="enumerated"/>
+								<option id="com.crt.advproject.gcc.arch.52244510" name="Architecture" superClass="com.crt.advproject.gcc.arch" useByScannerDiscovery="true" value="com.crt.advproject.gcc.target.cm4" valueType="enumerated"/>
+								<option id="com.crt.advproject.c.misc.dialect.619234319" name="Language standard" superClass="com.crt.advproject.c.misc.dialect" useByScannerDiscovery="true"/>
+								<option id="gnu.c.compiler.option.dialect.flags.1686285987" name="Other dialect flags" superClass="gnu.c.compiler.option.dialect.flags" useByScannerDiscovery="true"/>
+								<option id="gnu.c.compiler.option.preprocessor.nostdinc.1383531388" name="Do not search system directories (-nostdinc)" superClass="gnu.c.compiler.option.preprocessor.nostdinc" useByScannerDiscovery="false"/>
+								<option id="gnu.c.compiler.option.preprocessor.preprocess.1862191213" name="Preprocess only (-E)" superClass="gnu.c.compiler.option.preprocessor.preprocess" useByScannerDiscovery="false"/>
+								<option id="gnu.c.compiler.option.preprocessor.undef.symbol.1690339241" name="Undefined symbols (-U)" superClass="gnu.c.compiler.option.preprocessor.undef.symbol" useByScannerDiscovery="false"/>
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="gnu.c.compiler.option.include.paths.520914863" name="Include paths (-I)" superClass="gnu.c.compiler.option.include.paths" useByScannerDiscovery="false" valueType="includePath">
+									<listOptionValue builtIn="false" value="../../../binaries/UWBD/SR040/"/>
+									<listOptionValue builtIn="false" value="../../../demos/SR040/demo_swup_update_dsp"/>
+									<listOptionValue builtIn="false" value="../../../demos/SR040/demo_swup_update_fw"/>
+									<listOptionValue builtIn="false" value="../../../libs/halimpl/transport/SPI/common"/>
+									<listOptionValue builtIn="false" value="../../../demos/rhodes/cdc_app"/>
+									<listOptionValue builtIn="false" value="../../../demos/SR040/demo_tracker_ble/inc"/>
+									<listOptionValue builtIn="false" value="../../../demos/SR040/demo_tracker_ble/handlers/inc"/>
+									<listOptionValue builtIn="false" value="../../../boards/Host/QN9090_SR040_TR3"/>
+									<listOptionValue builtIn="false" value="../../../boards/QN9090_SR040_TR3_SPI"/>
+									<listOptionValue builtIn="false" value="../../../boards/TML/SPI"/>
+									<listOptionValue builtIn="false" value="../../../demos/common"/>
+									<listOptionValue builtIn="false" value="../../../demos/demo_qn9090"/>
+									<listOptionValue builtIn="false" value="../../../demos/pnp"/>
+									<listOptionValue builtIn="false" value="../../../demos/pnp/QN9090"/>
+									<listOptionValue builtIn="false" value="../../../ext/boards/qn9090/CMSIS/Include"/>
+									<listOptionValue builtIn="false" value="../../../ext/boards/qn9090/components"/>
+									<listOptionValue builtIn="false" value="../../../ext/boards/qn9090/components/uart"/>
+									<listOptionValue builtIn="false" value="../../../ext/boards/qn9090/devices/QN9090"/>
+									<listOptionValue builtIn="false" value="../../../ext/boards/qn9090/devices/QN9090/drivers"/>
+									<listOptionValue builtIn="false" value="../../../ext/boards/qn9090/devices/QN9090/gcc"/>
+									<listOptionValue builtIn="false" value="../../../ext/boards/qn9090/devices/QN9090/utilities"/>
+									<listOptionValue builtIn="false" value="../../../ext/freertos/hooks"/>
+									<listOptionValue builtIn="false" value="../../../ext/freertos/include"/>
+									<listOptionValue builtIn="false" value="../../../ext/freertos/portable/GCC/ARM_CM4FQN9090"/>
+									<listOptionValue builtIn="false" value="../../../ext/freertos/portable/MemMang"/>
+									<listOptionValue builtIn="false" value="../../../firmware_images/SR040/"/>
+									<listOptionValue builtIn="false" value="../../../libs/halimpl/gki/common"/>
+									<listOptionValue builtIn="false" value="../../../libs/halimpl/gki/freertos"/>
+									<listOptionValue builtIn="false" value="../../../libs/halimpl/gki/ulinux"/>
+									<listOptionValue builtIn="false" value="../../../libs/halimpl/hal"/>
+									<listOptionValue builtIn="false" value="../../../libs/halimpl/inc"/>
+									<listOptionValue builtIn="false" value="../../../libs/halimpl/log"/>
+									<listOptionValue builtIn="false" value="../../../libs/halimpl/osal"/>
+									<listOptionValue builtIn="false" value="../../../libs/halimpl/tml"/>
+									<listOptionValue builtIn="false" value="../../../libs/halimpl/transport/SPI"/>
+									<listOptionValue builtIn="false" value="../../../libs/halimpl/transport/SPI/qn9090"/>
+									<listOptionValue builtIn="false" value="../../../libs/halimpl/utils"/>
+									<listOptionValue builtIn="false" value="../../../libs/halimpl/utils/SR040"/>
+									<listOptionValue builtIn="false" value="../../../libs/uci-core/uci/include"/>
+									<listOptionValue builtIn="false" value="../../../libs/uci-core/uci/include/SR040"/>
+									<listOptionValue builtIn="false" value="../../../libs/uci-core/uwa/dm"/>
+									<listOptionValue builtIn="false" value="../../../libs/uci-core/uwa/include"/>
+									<listOptionValue builtIn="false" value="../../../libs/uci-core/uwa/sys"/>
+									<listOptionValue builtIn="false" value="../../../libs/uci-core/uwb/include"/>
+									<listOptionValue builtIn="false" value="../../../libs/uci-core/uwb/uci"/>
+									<listOptionValue builtIn="false" value="../../../libs/uci-core/uwb/uwb"/>
+									<listOptionValue builtIn="false" value="../../../libs/uwb-iot/swup/"/>
+									<listOptionValue builtIn="false" value="../../../libs/uwb-iot/uwb_api/Api"/>
+									<listOptionValue builtIn="false" value="../../../libs/uwb-iot/uwb_api/Api/SR040"/>
+									<listOptionValue builtIn="false" value="../../../libs/uwb-iot/uwb_api/PrintUtility"/>
+									<listOptionValue builtIn="false" value="../../../libs/uwb-iot/uwb_api/PrintUtility/SR040"/>
+									<listOptionValue builtIn="false" value="../../../libs/uwb-iot/uwb_api/Types"/>
+									<listOptionValue builtIn="false" value="../../../libs/uwb-iot/uwb_api/Types/SR040"/>
+									<listOptionValue builtIn="false" value="../../../libs/uwb-iot/uwb_core/adaptation"/>
+									<listOptionValue builtIn="false" value="../../../libs/uwb-iot/uwb_core/gki/common"/>
+									<listOptionValue builtIn="false" value="../../../libs/uwb-iot/uwb_core/gki/freertos"/>
+									<listOptionValue builtIn="false" value="../../../libs/uwb-iot/uwb_core/hal/include"/>
+									<listOptionValue builtIn="false" value="../../../libs/uwb-iot/uwb_core/include"/>
+									<listOptionValue builtIn="false" value="../../../ext/boards/qn9090/bluetooth/common/inc"/>
+									<listOptionValue builtIn="false" value="../../../ext/boards/qn9090/bluetooth/common/gatt_db/inc"/>
+									<listOptionValue builtIn="false" value="../../../ext/boards/qn9090/bluetooth/common/gatt_db/macros/inc"/>
+									<listOptionValue builtIn="false" value="../../../ext/boards/qn9090/bluetooth/controller/config/inc"/>
+									<listOptionValue builtIn="false" value="../../../ext/boards/qn9090/bluetooth/controller/interface/inc"/>
+									<listOptionValue builtIn="false" value="../../../ext/boards/qn9090/bluetooth/framework/Common/inc"/>
+									<listOptionValue builtIn="false" value="../../../ext/boards/qn9090/bluetooth/framework/Flash/inc"/>
+									<listOptionValue builtIn="false" value="../../../ext/boards/qn9090/bluetooth/framework/FunctionLib/inc"/>
+									<listOptionValue builtIn="false" value="../../../ext/boards/qn9090/bluetooth/framework/GPIO/inc"/>
+									<listOptionValue builtIn="false" value="../../../ext/boards/qn9090/bluetooth/framework/Keyboard/inc"/>
+									<listOptionValue builtIn="false" value="../../../ext/boards/qn9090/bluetooth/framework/LED/inc"/>
+									<listOptionValue builtIn="false" value="../../../ext/boards/qn9090/bluetooth/framework/Lists/inc"/>
+									<listOptionValue builtIn="false" value="../../../ext/boards/qn9090/bluetooth/framework/Logging/inc"/>
+									<listOptionValue builtIn="false" value="../../../ext/boards/qn9090/bluetooth/framework/LowPower/inc"/>
+									<listOptionValue builtIn="false" value="../../../ext/boards/qn9090/bluetooth/framework/MemManager/inc"/>
+									<listOptionValue builtIn="false" value="../../../ext/boards/qn9090/bluetooth/framework/Messaging/inc"/>
+									<listOptionValue builtIn="false" value="../../../ext/boards/qn9090/bluetooth/framework/ModuleInfo/inc"/>
+									<listOptionValue builtIn="false" value="../../../ext/boards/qn9090/bluetooth/framework/MWSCoexistence/inc"/>
+									<listOptionValue builtIn="false" value="../../../ext/boards/qn9090/bluetooth/framework/NVM/inc"/>
+									<listOptionValue builtIn="false" value="../../../ext/boards/qn9090/bluetooth/framework/OSAbstraction/inc"/>
+									<listOptionValue builtIn="false" value="../../../ext/boards/qn9090/bluetooth/framework/Panic/inc"/>
+									<listOptionValue builtIn="false" value="../../../ext/boards/qn9090/bluetooth/framework/PDM/inc"/>
+									<listOptionValue builtIn="false" value="../../../ext/boards/qn9090/bluetooth/framework/Reset/inc"/>
+									<listOptionValue builtIn="false" value="../../../ext/boards/qn9090/bluetooth/framework/RNG/inc"/>
+									<listOptionValue builtIn="false" value="../../../ext/boards/qn9090/bluetooth/framework/SecLib/inc"/>
+									<listOptionValue builtIn="false" value="../../../ext/boards/qn9090/bluetooth/framework/SerialManager/inc"/>
+									<listOptionValue builtIn="false" value="../../../ext/boards/qn9090/bluetooth/framework/TimersManager/inc"/>
+									<listOptionValue builtIn="false" value="../../../ext/boards/qn9090/bluetooth/framework/XCVR/DK6/inc"/>
+									<listOptionValue builtIn="false" value="../../../ext/boards/qn9090/bluetooth/hci_transport/inc"/>
+									<listOptionValue builtIn="false" value="../../../ext/boards/qn9090/bluetooth/host/config/inc"/>
+									<listOptionValue builtIn="false" value="../../../ext/boards/qn9090/bluetooth/host/interface/inc"/>
+									<listOptionValue builtIn="false" value="../../../ext/boards/qn9090/bluetooth/profiles/battery/inc"/>
+									<listOptionValue builtIn="false" value="../../../ext/boards/qn9090/bluetooth/profiles/device_info/inc"/>
+									<listOptionValue builtIn="false" value="../../../ext/boards/qn9090/bluetooth/profiles/private_profile/inc"/>
+								</option>
+								<option id="gnu.c.compiler.option.include.files.73120416" name="Include files (-include)" superClass="gnu.c.compiler.option.include.files" useByScannerDiscovery="false"/>
+								<option id="com.crt.advproject.gcc.exe.debug.option.optimization.level.1067521892" name="Optimization Level" superClass="com.crt.advproject.gcc.exe.debug.option.optimization.level" useByScannerDiscovery="true"/>
+								<option id="gnu.c.compiler.option.optimization.flags.1747733250" name="Other optimization flags" superClass="gnu.c.compiler.option.optimization.flags" useByScannerDiscovery="false" value="-fno-common" valueType="string"/>
+								<option id="com.crt.advproject.gcc.exe.debug.option.debugging.level.5429700" name="Debug Level" superClass="com.crt.advproject.gcc.exe.debug.option.debugging.level" useByScannerDiscovery="false"/>
+								<option id="gnu.c.compiler.option.debugging.other.1179275786" name="Other debugging flags" superClass="gnu.c.compiler.option.debugging.other" useByScannerDiscovery="false"/>
+								<option id="gnu.c.compiler.option.debugging.prof.657668524" name="Generate prof information (-p)" superClass="gnu.c.compiler.option.debugging.prof" useByScannerDiscovery="false"/>
+								<option id="gnu.c.compiler.option.debugging.gprof.5663937" name="Generate gprof information (-pg)" superClass="gnu.c.compiler.option.debugging.gprof" useByScannerDiscovery="false"/>
+								<option id="gnu.c.compiler.option.debugging.codecov.419421501" name="Generate gcov information (-ftest-coverage -fprofile-arcs)" superClass="gnu.c.compiler.option.debugging.codecov" useByScannerDiscovery="false"/>
+								<option id="gnu.c.compiler.option.warnings.syntax.760508685" name="Check syntax only (-fsyntax-only)" superClass="gnu.c.compiler.option.warnings.syntax" useByScannerDiscovery="false"/>
+								<option id="gnu.c.compiler.option.warnings.pedantic.1024439274" name="Pedantic (-pedantic)" superClass="gnu.c.compiler.option.warnings.pedantic" useByScannerDiscovery="false"/>
+								<option id="gnu.c.compiler.option.warnings.pedantic.error.1707048376" name="Pedantic warnings as errors (-pedantic-errors)" superClass="gnu.c.compiler.option.warnings.pedantic.error" useByScannerDiscovery="false"/>
+								<option id="gnu.c.compiler.option.warnings.nowarn.1402221514" name="Inhibit all warnings (-w)" superClass="gnu.c.compiler.option.warnings.nowarn" useByScannerDiscovery="false"/>
+								<option id="gnu.c.compiler.option.warnings.allwarn.1766946970" name="All warnings (-Wall)" superClass="gnu.c.compiler.option.warnings.allwarn" useByScannerDiscovery="false"/>
+								<option id="gnu.c.compiler.option.warnings.extrawarn.1218882772" name="Extra warnings (-Wextra)" superClass="gnu.c.compiler.option.warnings.extrawarn" useByScannerDiscovery="false"/>
+								<option id="gnu.c.compiler.option.warnings.toerrors.974641165" name="Warnings as errors (-Werror)" superClass="gnu.c.compiler.option.warnings.toerrors" useByScannerDiscovery="false"/>
+								<option id="gnu.c.compiler.option.warnings.wconversion.16166822" name="Implicit conversion warnings (-Wconversion)" superClass="gnu.c.compiler.option.warnings.wconversion" useByScannerDiscovery="false"/>
+								<option id="gnu.c.compiler.option.misc.other.283277266" name="Other flags" superClass="gnu.c.compiler.option.misc.other" useByScannerDiscovery="false" value="-c -ffunction-sections -fdata-sections -ffreestanding -fno-builtin -include &quot;${ProjDirPath}../../../boards/Host/QN9090_SR040_TR3/app_preinclude.h&quot;" valueType="string"/>
+								<option id="gnu.c.compiler.option.misc.verbose.1826508707" name="Verbose (-v)" superClass="gnu.c.compiler.option.misc.verbose" useByScannerDiscovery="false"/>
+								<option id="gnu.c.compiler.option.misc.ansi.571569970" name="Support ANSI programs (-ansi)" superClass="gnu.c.compiler.option.misc.ansi" useByScannerDiscovery="false"/>
+								<option id="gnu.c.compiler.option.misc.pic.1305444129" name="Position Independent Code (-fPIC)" superClass="gnu.c.compiler.option.misc.pic" useByScannerDiscovery="false"/>
+								<option id="com.crt.advproject.gcc.lto.2062046683" name="Enable Link-time optimization (-flto)" superClass="com.crt.advproject.gcc.lto" useByScannerDiscovery="false"/>
+								<option id="com.crt.advproject.gcc.lto.fat.981759619" name="Fat lto objects (-ffat-lto-objects)" superClass="com.crt.advproject.gcc.lto.fat" useByScannerDiscovery="false"/>
+								<option id="com.crt.advproject.gcc.merge.constants.918980594" name="Merge Identical Constants (-fmerge-constants)" superClass="com.crt.advproject.gcc.merge.constants" useByScannerDiscovery="false"/>
+								<option id="com.crt.advproject.gcc.prefixmap.1756948423" name="Remove path from __FILE__ (-fmacro-prefix-map)" superClass="com.crt.advproject.gcc.prefixmap" useByScannerDiscovery="false"/>
+								<option id="com.crt.advproject.gcc.fpu.1163019510" name="Floating point" superClass="com.crt.advproject.gcc.fpu" useByScannerDiscovery="true"/>
+								<option id="com.crt.advproject.gcc.thumbinterwork.1127266867" name="Enable Thumb interworking" superClass="com.crt.advproject.gcc.thumbinterwork" useByScannerDiscovery="false"/>
+								<option id="com.crt.advproject.gcc.securestate.217223876" name="TrustZone Project Type" superClass="com.crt.advproject.gcc.securestate" useByScannerDiscovery="false"/>
+								<option id="com.crt.advproject.gcc.stackusage.1575562158" name="Generate Stack Usage Info (-fstack-usage)" superClass="com.crt.advproject.gcc.stackusage" useByScannerDiscovery="false"/>
+								<option id="com.crt.advproject.gcc.config.2029507281" name="Obsolete (Config)" superClass="com.crt.advproject.gcc.config" useByScannerDiscovery="false"/>
+								<option id="com.crt.advproject.gcc.store.1959747985" name="Obsolete (Store)" superClass="com.crt.advproject.gcc.store" useByScannerDiscovery="false"/>
+								<inputType id="com.crt.advproject.compiler.input.129914250" superClass="com.crt.advproject.compiler.input"/>
+							</tool>
+							<tool id="com.crt.advproject.gas.exe.debug.412849197" name="MCU Assembler" superClass="com.crt.advproject.gas.exe.debug">
+								<option id="com.crt.advproject.gas.thumb.1340428006" name="Thumb mode" superClass="com.crt.advproject.gas.thumb" useByScannerDiscovery="false" value="true" valueType="boolean"/>
+								<option id="com.crt.advproject.gas.hdrlib.1693725067" name="Library headers" superClass="com.crt.advproject.gas.hdrlib" useByScannerDiscovery="false" value="com.crt.advproject.gas.hdrlib.newlibnano" valueType="enumerated"/>
+								<option id="com.crt.advproject.gas.specs.624857616" name="Specs" superClass="com.crt.advproject.gas.specs" useByScannerDiscovery="false" value="com.crt.advproject.gas.specs.newlibnano" valueType="enumerated"/>
+								<option id="com.crt.advproject.gas.arch.890976846" name="Architecture" superClass="com.crt.advproject.gas.arch" useByScannerDiscovery="false" value="com.crt.advproject.gas.target.cm4" valueType="enumerated"/>
+								<option id="gnu.both.asm.option.flags.crt.2068372742" name="Assembler flags" superClass="gnu.both.asm.option.flags.crt" useByScannerDiscovery="false" value="-c -x assembler-with-cpp -D__NEWLIB__" valueType="string"/>
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="true" id="gnu.both.asm.option.include.paths.1315755495" name="Include paths (-I)" superClass="gnu.both.asm.option.include.paths" useByScannerDiscovery="false" valueType="includePath"/>
+								<option id="gnu.both.asm.option.warnings.nowarn.526471703" name="Suppress warnings (-W)" superClass="gnu.both.asm.option.warnings.nowarn" useByScannerDiscovery="false"/>
+								<option id="gnu.both.asm.option.version.1472118257" name="Announce version (-v)" superClass="gnu.both.asm.option.version" useByScannerDiscovery="false"/>
+								<option id="com.crt.advproject.gas.exe.debug.option.debugging.level.876663060" name="Debug level" superClass="com.crt.advproject.gas.exe.debug.option.debugging.level" useByScannerDiscovery="false"/>
+								<option id="com.crt.advproject.gas.fpu.1255843501" name="Floating point" superClass="com.crt.advproject.gas.fpu" useByScannerDiscovery="false"/>
+								<option id="com.crt.advproject.gas.thumbinterwork.714988040" name="Enable Thumb interworking" superClass="com.crt.advproject.gas.thumbinterwork" useByScannerDiscovery="false"/>
+								<option id="com.crt.advproject.gas.config.1239696482" name="Obsolete (Config)" superClass="com.crt.advproject.gas.config" useByScannerDiscovery="false"/>
+								<option id="com.crt.advproject.gas.store.1602562561" name="Obsolete (Store)" superClass="com.crt.advproject.gas.store" useByScannerDiscovery="false"/>
+								<inputType id="cdt.managedbuild.tool.gnu.assembler.input.971094060" superClass="cdt.managedbuild.tool.gnu.assembler.input"/>
+								<inputType id="com.crt.advproject.assembler.input.14721158" name="Additional Assembly Source Files" superClass="com.crt.advproject.assembler.input"/>
+							</tool>
+							<tool id="com.crt.advproject.link.cpp.exe.debug.1275488248" name="MCU C++ Linker" superClass="com.crt.advproject.link.cpp.exe.debug">
+								<option id="com.crt.advproject.link.cpp.thumb.2022169655" name="Thumb mode" superClass="com.crt.advproject.link.cpp.thumb" useByScannerDiscovery="false" value="true" valueType="boolean"/>
+								<option id="com.crt.advproject.link.memory.load.image.cpp.1481749115" name="Plain load image" superClass="com.crt.advproject.link.memory.load.image.cpp" useByScannerDiscovery="false" value="false;" valueType="string"/>
+								<option defaultValue="com.crt.advproject.heapAndStack.mcuXpressoStyle.cpp" id="com.crt.advproject.link.memory.heapAndStack.style.cpp.1492615484" name="Heap and Stack placement" superClass="com.crt.advproject.link.memory.heapAndStack.style.cpp" useByScannerDiscovery="false" value="com.crt.advproject.heapAndStack.mcuXpressoStyle.cpp" valueType="enumerated"/>
+								<option id="com.crt.advproject.link.memory.heapAndStack.cpp.1205389709" name="Heap and Stack options" superClass="com.crt.advproject.link.memory.heapAndStack.cpp" useByScannerDiscovery="false" value="&amp;Heap:Default;Post Data;Default&amp;Stack:Default;End;Default" valueType="string"/>
+								<option id="com.crt.advproject.link.memory.data.cpp.1986075958" name="Global data placement" superClass="com.crt.advproject.link.memory.data.cpp" useByScannerDiscovery="false" value="Default" valueType="string"/>
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="true" id="com.crt.advproject.link.memory.sections.cpp.1783659738" name="Extra linker script input sections" superClass="com.crt.advproject.link.memory.sections.cpp" useByScannerDiscovery="false" valueType="stringList"/>
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="true" id="com.crt.advproject.link.cpp.multicore.master.userobjs.2008346551" name="Slave Objects (not visible)" superClass="com.crt.advproject.link.cpp.multicore.master.userobjs" useByScannerDiscovery="false" valueType="userObjs"/>
+								<option id="com.crt.advproject.link.cpp.arch.1884795628" name="Architecture" superClass="com.crt.advproject.link.cpp.arch" useByScannerDiscovery="false" value="com.crt.advproject.link.cpp.target.cm4" valueType="enumerated"/>
+								<option id="gnu.cpp.link.option.nostart.1927177629" name="Do not use standard start files (-nostartfiles)" superClass="gnu.cpp.link.option.nostart" useByScannerDiscovery="false"/>
+								<option id="gnu.cpp.link.option.nodeflibs.475606325" name="Do not use default libraries (-nodefaultlibs)" superClass="gnu.cpp.link.option.nodeflibs" useByScannerDiscovery="false"/>
+								<option id="gnu.cpp.link.option.nostdlibs.1813022148" name="No startup or default libs (-nostdlib)" superClass="gnu.cpp.link.option.nostdlibs" useByScannerDiscovery="false" value="true" valueType="boolean"/>
+								<option id="gnu.cpp.link.option.strip.1425368434" name="Omit all symbol information (-s)" superClass="gnu.cpp.link.option.strip" useByScannerDiscovery="false"/>
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="gnu.cpp.link.option.libs.439814140" name="Libraries (-l)" superClass="gnu.cpp.link.option.libs" useByScannerDiscovery="false" valueType="libs">
+									<listOptionValue builtIn="false" value="_crypto_m4"/>
+									<listOptionValue builtIn="false" value="Radio"/>
+									<listOptionValue builtIn="false" value="_ble_controller"/>
+									<listOptionValue builtIn="false" value="PDM"/>
+									<listOptionValue builtIn="false" value="_ble_5-0_host_cm4_noFP"/>
+								</option>
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="gnu.cpp.link.option.paths.681183889" name="Library search path (-L)" superClass="gnu.cpp.link.option.paths" useByScannerDiscovery="false" valueType="libPaths">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/ext/boards/qn9090/bluetooth/libs}&quot;"/>
+								</option>
+								<option id="gnu.cpp.link.option.flags.1948248450" name="Linker flags" superClass="gnu.cpp.link.option.flags" useByScannerDiscovery="false"/>
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="gnu.cpp.link.option.other.1517507508" name="Other options (-Xlinker [option])" superClass="gnu.cpp.link.option.other" useByScannerDiscovery="false" valueType="stringList">
+									<listOptionValue builtIn="false" value="-Map=&quot;${BuildArtifactFileBaseName}.map&quot;"/>
+									<listOptionValue builtIn="false" value="--no-wchar-size-warning"/>
+									<listOptionValue builtIn="false" value="--defsym=__app_stated_size__=0x90000"/>
+									<listOptionValue builtIn="false" value="--defsym=__ram_vector_table__=1"/>
+									<listOptionValue builtIn="false" value="--defsym=gUseNVMLink_d=1"/>
+									<listOptionValue builtIn="false" value="--gc-sections"/>
+									<listOptionValue builtIn="false" value="-print-memory-usage"/>
+									<listOptionValue builtIn="false" value="--sort-section=alignment"/>
+									<listOptionValue builtIn="false" value="--cref"/>
+								</option>
+								<option id="gnu.cpp.link.option.userobjs.1263202364" name="Other objects" superClass="gnu.cpp.link.option.userobjs" useByScannerDiscovery="false"/>
+								<option id="gnu.cpp.link.option.shared.2131013061" name="Shared (-shared)" superClass="gnu.cpp.link.option.shared" useByScannerDiscovery="false"/>
+								<option id="gnu.cpp.link.option.soname.444492925" name="Shared object name (-Wl,-soname=)" superClass="gnu.cpp.link.option.soname" useByScannerDiscovery="false"/>
+								<option id="gnu.cpp.link.option.implname.1915725184" name="Import Library name (-Wl,--out-implib=)" superClass="gnu.cpp.link.option.implname" useByScannerDiscovery="false"/>
+								<option id="gnu.cpp.link.option.defname.1999412146" name="DEF file name (-Wl,--output-def=)" superClass="gnu.cpp.link.option.defname" useByScannerDiscovery="false"/>
+								<option id="gnu.cpp.link.option.debugging.prof.828403854" name="Generate prof information (-p)" superClass="gnu.cpp.link.option.debugging.prof" useByScannerDiscovery="false"/>
+								<option id="gnu.cpp.link.option.debugging.gprof.689722170" name="Generate gprof information (-pg)" superClass="gnu.cpp.link.option.debugging.gprof" useByScannerDiscovery="false"/>
+								<option id="gnu.cpp.link.option.debugging.codecov.993040437" name="Generate gcov information (-ftest-coverage -fprofile-arcs)" superClass="gnu.cpp.link.option.debugging.codecov" useByScannerDiscovery="false"/>
+								<option id="com.crt.advproject.link.cpp.lto.1011664011" name="Enable Link-time optimization (-flto)" superClass="com.crt.advproject.link.cpp.lto" useByScannerDiscovery="false"/>
+								<option id="com.crt.advproject.link.cpp.lto.optmization.level.1312896254" name="Link-time optimization level" superClass="com.crt.advproject.link.cpp.lto.optmization.level" useByScannerDiscovery="false"/>
+								<option id="com.crt.advproject.link.cpp.fpu.1736076855" name="Floating point" superClass="com.crt.advproject.link.cpp.fpu" useByScannerDiscovery="false"/>
+								<option id="com.crt.advproject.link.cpp.manage.2084483714" name="Manage linker script" superClass="com.crt.advproject.link.cpp.manage" useByScannerDiscovery="false" value="false" valueType="boolean"/>
+								<option id="com.crt.advproject.link.cpp.script.306972463" name="Linker script" superClass="com.crt.advproject.link.cpp.script" useByScannerDiscovery="false" value="QN9090_UWB_TAG_FW.ld" valueType="string"/>
+								<option id="com.crt.advproject.link.cpp.scriptdir.682383541" name="Script path" superClass="com.crt.advproject.link.cpp.scriptdir" useByScannerDiscovery="false" value="../../../boards/QN9090_SR040_TR3_SPI/" valueType="string"/>
+								<option id="com.crt.advproject.link.cpp.crpenable.2068700053" name="Enable automatic placement of Code Read Protection field in image" superClass="com.crt.advproject.link.cpp.crpenable" useByScannerDiscovery="false"/>
+								<option id="com.crt.advproject.link.cpp.flashconfigenable.1871806495" name="Enable automatic placement of Flash Configuration field in image" superClass="com.crt.advproject.link.cpp.flashconfigenable" useByScannerDiscovery="false" value="true" valueType="boolean"/>
+								<option id="com.crt.advproject.link.cpp.ecrp.69428324" name="Enhanced CRP" superClass="com.crt.advproject.link.cpp.ecrp" useByScannerDiscovery="false"/>
+								<option id="com.crt.advproject.link.cpp.hdrlib.813884470" name="Library" superClass="com.crt.advproject.link.cpp.hdrlib" useByScannerDiscovery="false" value="com.crt.advproject.cpp.link.hdrlib.newlibnano.nohost" valueType="enumerated"/>
+								<option id="com.crt.advproject.link.cpp.nanofloat.1659444110" name="Enable printf float " superClass="com.crt.advproject.link.cpp.nanofloat" useByScannerDiscovery="false"/>
+								<option id="com.crt.advproject.link.cpp.nanofloat.scanf.784473938" name="Enable scanf float " superClass="com.crt.advproject.link.cpp.nanofloat.scanf" useByScannerDiscovery="false"/>
+								<option id="com.crt.advproject.link.cpp.toram.1484341576" name="Link application to RAM" superClass="com.crt.advproject.link.cpp.toram" useByScannerDiscovery="false"/>
+								<option id="com.crt.advproject.link.cpp.stackOffset.260623321" name="Stack offset" superClass="com.crt.advproject.link.cpp.stackOffset" useByScannerDiscovery="false"/>
+								<option id="com.crt.advproject.link.cpp.multicore.slave.1046161656" name="Multicore configuration" superClass="com.crt.advproject.link.cpp.multicore.slave" useByScannerDiscovery="false"/>
+								<option id="com.crt.advproject.link.cpp.multicore.master.45284942" name="Multicore master" superClass="com.crt.advproject.link.cpp.multicore.master" useByScannerDiscovery="false"/>
+								<option id="com.crt.advproject.link.cpp.multicore.empty.1460525140" name="No Multicore options for this project" superClass="com.crt.advproject.link.cpp.multicore.empty" useByScannerDiscovery="false"/>
+								<option id="com.crt.advproject.link.cpp.config.1892906830" name="Obsolete (Config)" superClass="com.crt.advproject.link.cpp.config" useByScannerDiscovery="false"/>
+								<option id="com.crt.advproject.link.cpp.store.896014714" name="Obsolete (Store)" superClass="com.crt.advproject.link.cpp.store" useByScannerDiscovery="false"/>
+								<option id="com.crt.advproject.link.cpp.securestate.695062898" name="TrustZone Project Type" superClass="com.crt.advproject.link.cpp.securestate" useByScannerDiscovery="false"/>
+								<option id="com.crt.advproject.link.cpp.sgstubs.placement.2085616634" name="Secure Gateway Placement" superClass="com.crt.advproject.link.cpp.sgstubs.placement" useByScannerDiscovery="false"/>
+								<option id="com.crt.advproject.link.cpp.sgstubenable.1273169176" name="Enable generation of Secure Gateway Import Library" superClass="com.crt.advproject.link.cpp.sgstubenable" useByScannerDiscovery="false"/>
+								<option id="com.crt.advproject.link.cpp.nonsecureobject.1360810835" name="Secure Gateway Import Library" superClass="com.crt.advproject.link.cpp.nonsecureobject" useByScannerDiscovery="false"/>
+								<option id="com.crt.advproject.link.cpp.inimplib.1973808104" name="Input Secure Gateway Import Library" superClass="com.crt.advproject.link.cpp.inimplib" useByScannerDiscovery="false"/>
+								<inputType id="cdt.managedbuild.tool.gnu.cpp.linker.input.1679234421" superClass="cdt.managedbuild.tool.gnu.cpp.linker.input">
+									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
+									<additionalInput kind="additionalinput" paths="$(LIBS)"/>
+								</inputType>
+							</tool>
+							<tool id="com.crt.advproject.link.exe.debug.337426994" name="MCU Linker" superClass="com.crt.advproject.link.exe.debug">
+								<option id="com.crt.advproject.link.arch.1857857562" name="Architecture" superClass="com.crt.advproject.link.arch" value="com.crt.advproject.link.target.cm4" valueType="enumerated"/>
+								<option id="gnu.c.link.option.nostart.1862231833" name="Do not use standard start files (-nostartfiles)" superClass="gnu.c.link.option.nostart"/>
+								<option id="gnu.c.link.option.nodeflibs.1684187435" name="Do not use default libraries (-nodefaultlibs)" superClass="gnu.c.link.option.nodeflibs"/>
+								<option id="gnu.c.link.option.nostdlibs.1734401643" name="No startup or default libs (-nostdlib)" superClass="gnu.c.link.option.nostdlibs" value="true" valueType="boolean"/>
+								<option id="gnu.c.link.option.strip.646610415" name="Omit all symbol information (-s)" superClass="gnu.c.link.option.strip"/>
+								<option id="gnu.c.link.option.noshared.869083644" name="No shared libraries (-static)" superClass="gnu.c.link.option.noshared"/>
+								<option id="gnu.c.link.option.libs.961226057" name="Libraries (-l)" superClass="gnu.c.link.option.libs"/>
+								<option id="gnu.c.link.option.paths.632020988" name="Library search path (-L)" superClass="gnu.c.link.option.paths"/>
+								<option id="gnu.c.link.option.ldflags.697543970" name="Linker flags" superClass="gnu.c.link.option.ldflags"/>
+								<option id="gnu.c.link.option.other.1233611052" name="Other options (-Xlinker [option])" superClass="gnu.c.link.option.other"/>
+								<option id="gnu.c.link.option.userobjs.609661455" name="Other objects" superClass="gnu.c.link.option.userobjs"/>
+								<option id="gnu.c.link.option.shared.1953371627" name="Shared (-shared)" superClass="gnu.c.link.option.shared"/>
+								<option id="gnu.c.link.option.soname.871018609" name="Shared object name (-Wl,-soname=)" superClass="gnu.c.link.option.soname"/>
+								<option id="gnu.c.link.option.implname.86932297" name="Import Library name (-Wl,--out-implib=)" superClass="gnu.c.link.option.implname"/>
+								<option id="gnu.c.link.option.defname.1544830455" name="DEF file name (-Wl,--output-def=)" superClass="gnu.c.link.option.defname"/>
+								<option id="gnu.c.link.option.debugging.prof.37741157" name="Generate prof information (-p)" superClass="gnu.c.link.option.debugging.prof"/>
+								<option id="gnu.c.link.option.debugging.gprof.144668661" name="Generate gprof information (-pg)" superClass="gnu.c.link.option.debugging.gprof"/>
+								<option id="gnu.c.link.option.debugging.codecov.1201302171" name="Generate gcov information (-ftest-coverage -fprofile-arcs)" superClass="gnu.c.link.option.debugging.codecov"/>
+								<option id="com.crt.advproject.link.gcc.lto.1592861382" name="Enable Link-time optimization (-flto)" superClass="com.crt.advproject.link.gcc.lto"/>
+								<option id="com.crt.advproject.link.gcc.lto.optmization.level.345411708" name="Link-time optimization level" superClass="com.crt.advproject.link.gcc.lto.optmization.level"/>
+								<option id="com.crt.advproject.link.fpu.1467732084" name="Floating point" superClass="com.crt.advproject.link.fpu"/>
+								<option id="com.crt.advproject.link.thumb.1497431096" name="Thumb mode" superClass="com.crt.advproject.link.thumb"/>
+								<option id="com.crt.advproject.link.manage.1781937833" name="Manage linker script" superClass="com.crt.advproject.link.manage" value="true" valueType="boolean"/>
+								<option id="com.crt.advproject.link.script.226620231" name="Linker script" superClass="com.crt.advproject.link.script"/>
+								<option id="com.crt.advproject.link.scriptdir.1541553633" name="Script path" superClass="com.crt.advproject.link.scriptdir"/>
+								<option id="com.crt.advproject.link.crpenable.561249273" name="Enable automatic placement of Code Read Protection field in image" superClass="com.crt.advproject.link.crpenable"/>
+								<option id="com.crt.advproject.link.flashconfigenable.1169075851" name="Enable automatic placement of Flash Configuration field in image" superClass="com.crt.advproject.link.flashconfigenable" value="true" valueType="boolean"/>
+								<option id="com.crt.advproject.link.ecrp.546324738" name="Enhanced CRP" superClass="com.crt.advproject.link.ecrp"/>
+								<option id="com.crt.advproject.link.gcc.hdrlib.2122246313" name="Library" superClass="com.crt.advproject.link.gcc.hdrlib" value="com.crt.advproject.gcc.link.hdrlib.newlibnano.nohost" valueType="enumerated"/>
+								<option id="com.crt.advproject.link.gcc.nanofloat.331906453" name="Enable printf float " superClass="com.crt.advproject.link.gcc.nanofloat"/>
+								<option id="com.crt.advproject.link.gcc.nanofloat.scanf.1068739936" name="Enable scanf float " superClass="com.crt.advproject.link.gcc.nanofloat.scanf"/>
+								<option id="com.crt.advproject.link.toram.163961883" name="Link application to RAM" superClass="com.crt.advproject.link.toram"/>
+								<option id="com.crt.advproject.link.memory.load.image.944148953" name="Plain load image" superClass="com.crt.advproject.link.memory.load.image"/>
+								<option id="com.crt.advproject.link.memory.heapAndStack.style.854183078" name="Heap and Stack placement" superClass="com.crt.advproject.link.memory.heapAndStack.style"/>
+								<option id="com.crt.advproject.link.stackOffset.201850660" name="Stack offset" superClass="com.crt.advproject.link.stackOffset"/>
+								<option id="com.crt.advproject.link.memory.heapAndStack.421383675" name="Heap and Stack options" superClass="com.crt.advproject.link.memory.heapAndStack"/>
+								<option id="com.crt.advproject.link.memory.data.228110424" name="Global data placement" superClass="com.crt.advproject.link.memory.data"/>
+								<option id="com.crt.advproject.link.memory.sections.729220071" name="Extra linker script input sections" superClass="com.crt.advproject.link.memory.sections"/>
+								<option id="com.crt.advproject.link.gcc.multicore.slave.157151158" name="Multicore configuration" superClass="com.crt.advproject.link.gcc.multicore.slave"/>
+								<option id="com.crt.advproject.link.gcc.multicore.master.2095484271" name="Multicore master" superClass="com.crt.advproject.link.gcc.multicore.master"/>
+								<option id="com.crt.advproject.link.gcc.multicore.master.userobjs.2089439696" name="Slave Objects (not visible)" superClass="com.crt.advproject.link.gcc.multicore.master.userobjs"/>
+								<option id="com.crt.advproject.link.gcc.multicore.empty.1016538015" name="No Multicore options for this project" superClass="com.crt.advproject.link.gcc.multicore.empty"/>
+								<option id="com.crt.advproject.link.config.1211900973" name="Obsolete (Config)" superClass="com.crt.advproject.link.config"/>
+								<option id="com.crt.advproject.link.store.1730010496" name="Obsolete (Store)" superClass="com.crt.advproject.link.store"/>
+								<option id="com.crt.advproject.link.securestate.209939206" name="TrustZone Project Type" superClass="com.crt.advproject.link.securestate"/>
+								<option id="com.crt.advproject.link.sgstubs.placement.533452528" name="Secure Gateway Placement" superClass="com.crt.advproject.link.sgstubs.placement"/>
+								<option id="com.crt.advproject.link.sgstubenable.606433944" name="Enable generation of Secure Gateway Import Library" superClass="com.crt.advproject.link.sgstubenable"/>
+								<option id="com.crt.advproject.link.nonsecureobject.762120332" name="Secure Gateway Import Library" superClass="com.crt.advproject.link.nonsecureobject"/>
+								<option id="com.crt.advproject.link.inimplib.655254040" name="Input Secure Gateway Import Library" superClass="com.crt.advproject.link.inimplib"/>
+							</tool>
+							<tool id="com.crt.advproject.tool.debug.debug.407667806" name="MCU Debugger" superClass="com.crt.advproject.tool.debug.debug">
+								<option id="com.crt.advproject.linkserver.debug.prevent.debug.27809894" name="Prevent Debugging" superClass="com.crt.advproject.linkserver.debug.prevent.debug" useByScannerDiscovery="false"/>
+								<option id="com.crt.advproject.miscellaneous.end_of_heap.1329585695" name="Last used address of the heap" superClass="com.crt.advproject.miscellaneous.end_of_heap" useByScannerDiscovery="false"/>
+								<option id="com.crt.advproject.miscellaneous.pvHeapStart.652385988" name="First address of the heap" superClass="com.crt.advproject.miscellaneous.pvHeapStart" useByScannerDiscovery="false"/>
+								<option id="com.crt.advproject.miscellaneous.pvHeapLimit.1938142196" name="Maximum extent of heap" superClass="com.crt.advproject.miscellaneous.pvHeapLimit" useByScannerDiscovery="false"/>
+								<option id="com.crt.advproject.debugger.security.nonsecureimageenable.234236476" name="Enable pre-programming of Non-Secure Image" superClass="com.crt.advproject.debugger.security.nonsecureimageenable" useByScannerDiscovery="false"/>
+								<option id="com.crt.advproject.debugger.security.nonsecureimage.52138909" name="Non-Secure Project" superClass="com.crt.advproject.debugger.security.nonsecureimage" useByScannerDiscovery="false"/>
+							</tool>
+						</toolChain>
+					</folderInfo>
+					<sourceEntries>
+						<entry excluding="demos/SR040/demo_tdoa_tag|demos/SR040/demo_tdoa_tag/common/Standalone_Main.c|demos/SR040/demo_swup_update_dsp|demos/SR040/demo_radio_configs_safe|demos/SR040/demo_radio_configs_safe/common/Standalone_Main.c|demos/SR040/demo_swup_update_fw|demos/SR040/demo_tdoa_tag/common/Standalone_Main_S32K.c|demos/SR040/demo_tdoa_tag/common/AppCallbacks_cdc.c|demos/SR040/demo_radio_configs_safe/common/Standalone_Main_S32K.c|demos/SR040/demo_radio_configs_safe/common/AppCallbacks_cdc.c|demos/SR040/demo_radio_configs_forced|demos/SR040/demo_tracker_ble|demos/SR040/demo_test_modes|demos/SR040/demo_test_modes/common/Standalone_Main.c|demos/SR040/demo_test_modes/common/Standalone_Main_S32K.c|demos/SR040/demo_test_modes/common/Standalone_Main_PCFreeRTOS.c|demos/SR040/demo_test_modes/common/AppCallbacks_cdc.c|demos/SR040/demo_tracker_ble/common/AppCallbacks_cdc.c|libs/uwb-iot/uwb_core/gki/linux|demos/SR040/demo_tracker_ble/common/Standalone_Main_PCFreeRTOS.c|demos/SR040/demo_tracker_ble/common/Standalone_Main.c|demos/SR040/demo_tracker_ble/common/Standalone_Main_S32K.c|libs/halimpl/osal/phOsalUwb_Timer_linux.cc|libs/halimpl/osal/phOsalUwb_linux.cc|libs/halimpl/tml/phDal4Uwb_messageQueueLib_linux.cc|demos/SR040/demo_radio_configs_forced/common/Standalone_Main.c|demos/SR040/demo_radio_configs_forced/common/Standalone_Main_S32K.c|demos/SR040/demo_radio_configs_forced/common/Standalone_Main_PCFreeRTOS.c|demos/SR040/demo_radio_configs_forced/common/AppCallbacks_cdc.c|demos/SR040/pnp|demos/SR040/pnp/rhodes|demos/SR040/demo_tracker_sr040/common/Standalone_Main.c|demos/SR040/demo_tracker_sr040/common/Standalone_Main_S32K.c|demos/SR040/demo_tracker_sr040/common/Standalone_Main_PCFreeRTOS.c|demos/SR040/demo_tracker_sr040/common/AppCallbacks_cdc.c|demos/SR040/demo_swup_update_fw/common/Standalone_Main.c|demos/SR040/demo_swup_update_fw/common/Standalone_Main_S32K.c|demos/SR040/demo_swup_update_fw/common/Standalone_Main_PCFreeRTOS.c|demos/SR040/demo_swup_update_fw/common/AppCallbacks_cdc.c|demos/SR040/demo_swup_update_dsp/common/Standalone_Main.c|demos/SR040/demo_swup_update_dsp/common/Standalone_Main_S32K.c|demos/SR040/demo_swup_update_dsp/common/Standalone_Main_PCFreeRTOS.c|demos/SR040/demo_swup_update_dsp/common/AppCallbacks_cdc.c|Debug|demos/SR040/radio_configs/common/Standalone_Main.c|demos/SR040/radio_configs/common/Standalone_Main_S32K.c|demos/SR040/radio_configs/common/Standalone_Main_PCFreeRTOS.c|demos/SR040/radio_configs/common/AppCallbacks_cdc.c|libs/halimpl/transport/SPI/s32k|ext/boards/qn9090/devices/QN9090/gcc/startup_qn9090.cpp|ext/boards/qn9090/devices/QN9090/gcc/startup_QN9090.S|ext/freertos/portable/GCC/ARM_CM4FTL|ext/freertos/portable/MemMang/heap_5.c|ext/freertos/portable/MemMang/heap_3.c|ext/freertos/portable/MemMang/heap_2.c|ext/freertos/portable/MemMang/heap_1.c|ext/freertos/portable/ThirdParty|ext/freertos/portable/MSVC-MingW|ext/freertos/portable/GCC/ARM_CM4F|ext/freertos/portable/GCC/ARM_CM3|ext/freertos/portable/GCC/ARM_CM0|libs/halimpl/utils/SR100T|libs/halimpl/transport/Socket|libs/halimpl/transport/serial|libs/halimpl/transport/PnP|libs/halimpl/transport/usbrpc|libs/halimpl/transport/S32Uart|libs/halimpl/transport/SPI/K32W042|libs/uwb-iot/uwb_api/Api/SR100T|libs/uwb-iot/uwb_api/PrintUtility/SR100T|demos/common/Standalone_Main.c|demos/common/AppCallbacks_cdc.c|demos/common/Standalone_Main_S32K.c|demos/common/Standalone_Main_PCFreeRTOS.c" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+					</sourceEntries>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+		</cconfiguration>
+		<cconfiguration id="com.crt.advproject.config.exe.release.341931395">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="com.crt.advproject.config.exe.release.341931395" moduleId="org.eclipse.cdt.core.settings" name="Release">
+				<externalSettings/>
+				<extensions>
+					<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.GNU_ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactExtension="axf" artifactName="${ProjName}" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.exe" buildProperties="org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.exe" cleanCommand="rm -rf" description="Release build" errorParsers="org.eclipse.cdt.core.CWDLocator;org.eclipse.cdt.core.GmakeErrorParser;org.eclipse.cdt.core.GCCErrorParser;org.eclipse.cdt.core.GLDErrorParser;org.eclipse.cdt.core.GASErrorParser" id="com.crt.advproject.config.exe.release.341931395" name="Release" parent="com.crt.advproject.config.exe.release" postannouncebuildStep="Performing post-build steps" postbuildStep="arm-none-eabi-size &quot;${BuildArtifactFileName}&quot; ; python &quot;../../../scripts/dk6_image_tool_py3.py&quot; ${ENV_IMAGE_TOOL_OPTS} ${BuildArtifactFileName} ; arm-none-eabi-objcopy -v -O binary &quot;${BuildArtifactFileName}&quot; &quot;${BuildArtifactFileBaseName}.bin&quot;">
+					<folderInfo id="com.crt.advproject.config.exe.release.341931395." name="/" resourcePath="">
+						<toolChain id="com.crt.advproject.toolchain.exe.release.469729257" name="NXP MCU Tools" superClass="com.crt.advproject.toolchain.exe.release">
+							<targetPlatform binaryParser="org.eclipse.cdt.core.ELF;org.eclipse.cdt.core.GNU_ELF" id="com.crt.advproject.platform.exe.release.1718500150" name="ARM-based MCU (Release)" superClass="com.crt.advproject.platform.exe.release"/>
+							<builder buildPath="${workspace_loc:/QN9090_SR040}/Release" id="com.crt.advproject.builder.exe.release.1144679929" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="Gnu Make Builder" superClass="com.crt.advproject.builder.exe.release"/>
+							<tool id="com.crt.advproject.cpp.exe.release.231120751" name="MCU C++ Compiler" superClass="com.crt.advproject.cpp.exe.release">
+								<option id="com.crt.advproject.cpp.thumb.313805377" name="Thumb mode" superClass="com.crt.advproject.cpp.thumb" useByScannerDiscovery="false" value="true" valueType="boolean"/>
+								<option id="com.crt.advproject.cpp.specs.1142840364" name="Specs" superClass="com.crt.advproject.cpp.specs" useByScannerDiscovery="false" value="com.crt.advproject.cpp.specs.newlibnano" valueType="enumerated"/>
+								<option id="com.crt.advproject.cpp.arch.1754083731" name="Architecture" superClass="com.crt.advproject.cpp.arch" useByScannerDiscovery="true" value="com.crt.advproject.cpp.target.cm4" valueType="enumerated"/>
+								<option id="com.crt.advproject.cpp.misc.dialect.1252298749" name="Language standard" superClass="com.crt.advproject.cpp.misc.dialect" useByScannerDiscovery="true"/>
+								<option id="gnu.cpp.compiler.option.dialect.flags.1946738445" name="Other dialect flags" superClass="gnu.cpp.compiler.option.dialect.flags" useByScannerDiscovery="true"/>
+								<option id="gnu.cpp.compiler.option.preprocessor.nostdinc.661584503" name="Do not search system directories (-nostdinc)" superClass="gnu.cpp.compiler.option.preprocessor.nostdinc" useByScannerDiscovery="false"/>
+								<option id="gnu.cpp.compiler.option.preprocessor.preprocess.1091358126" name="Preprocess only (-E)" superClass="gnu.cpp.compiler.option.preprocessor.preprocess" useByScannerDiscovery="false"/>
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="gnu.cpp.compiler.option.preprocessor.def.643352161" name="Defined symbols (-D)" superClass="gnu.cpp.compiler.option.preprocessor.def" useByScannerDiscovery="false" valueType="definedSymbols">
+									<listOptionValue builtIn="false" value="CPU_QN9090HN"/>
+									<listOptionValue builtIn="false" value="SUPPORT_FOR_BLE=1"/>
+									<listOptionValue builtIn="false" value="PRINTF_ADVANCED_ENABLE=1"/>
+									<listOptionValue builtIn="false" value="CPU_QN9090HN_cm4"/>
+									<listOptionValue builtIn="false" value="CPU_QN9090"/>
+									<listOptionValue builtIn="false" value="__APP_DEBUG"/>
+									<listOptionValue builtIn="false" value="__ASSERT_LL_DEBUG"/>
+									<listOptionValue builtIn="false" value="__CPU_JN518X_REV=1"/>
+									<listOptionValue builtIn="false" value="CR_PRINTF_CHAR"/>
+									<listOptionValue builtIn="false" value="SDK_DEBUGCONSOLE=1"/>
+									<listOptionValue builtIn="false" value="CR_INTEGER_PRINTF"/>
+									<listOptionValue builtIn="false" value="QN9090DK6"/>
+									<listOptionValue builtIn="false" value="DK6"/>
+									<listOptionValue builtIn="false" value="CPU_JN518X"/>
+									<listOptionValue builtIn="false" value="CFG_BLE_PRJ=1"/>
+									<listOptionValue builtIn="false" value="ENABLE_RAM_VECTOR_TABLE=1"/>
+									<listOptionValue builtIn="false" value="gSupportBle=1"/>
+									<listOptionValue builtIn="false" value="FSL_RTOS_FREE_RTOS"/>
+									<listOptionValue builtIn="false" value="PRINTF_FLOAT_ENABLE=1"/>
+									<listOptionValue builtIn="false" value="__MCUXPRESSO"/>
+									<listOptionValue builtIn="false" value="__USE_CMSIS"/>
+									<listOptionValue builtIn="false" value="DEBUG"/>
+									<listOptionValue builtIn="false" value="__NEWLIB__"/>
+								</option>
+								<option id="gnu.cpp.compiler.option.preprocessor.undef.459277936" name="Undefined symbols (-U)" superClass="gnu.cpp.compiler.option.preprocessor.undef" useByScannerDiscovery="false"/>
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="gnu.cpp.compiler.option.include.paths.249974542" name="Include paths (-I)" superClass="gnu.cpp.compiler.option.include.paths" useByScannerDiscovery="false" valueType="includePath">
+									<listOptionValue builtIn="false" value="../../../binaries/UWBD/SR040/"/>
+									<listOptionValue builtIn="false" value="../../../demos/SR040/demo_swup_update_fw"/>
+									<listOptionValue builtIn="false" value="../../../demos/SR040/demo_swup_update_dsp"/>
+									<listOptionValue builtIn="false" value="../../../boards/Host/QN9090_SR040_TR3"/>
+									<listOptionValue builtIn="false" value="../../../boards/QN9090_SR040_TR3_SPI"/>
+									<listOptionValue builtIn="false" value="../../../boards/TML/SPI"/>
+									<listOptionValue builtIn="false" value="../../../demos/common"/>
+									<listOptionValue builtIn="false" value="../../../demos/demo_qn9090"/>
+									<listOptionValue builtIn="false" value="../../../demos/pnp"/>
+									<listOptionValue builtIn="false" value="../../../demos/pnp/QN9090"/>
+									<listOptionValue builtIn="false" value="../../../ext/boards/qn9090/CMSIS/Include"/>
+									<listOptionValue builtIn="false" value="../../../ext/boards/qn9090/components"/>
+									<listOptionValue builtIn="false" value="../../../ext/boards/qn9090/components/uart"/>
+									<listOptionValue builtIn="false" value="../../../ext/boards/qn9090/devices/QN9090"/>
+									<listOptionValue builtIn="false" value="../../../ext/boards/qn9090/devices/QN9090/drivers"/>
+									<listOptionValue builtIn="false" value="../../../ext/boards/qn9090/devices/QN9090/gcc"/>
+									<listOptionValue builtIn="false" value="../../../ext/boards/qn9090/devices/QN9090/utilities"/>
+									<listOptionValue builtIn="false" value="../../../ext/freertos/hooks"/>
+									<listOptionValue builtIn="false" value="../../../ext/freertos/include"/>
+									<listOptionValue builtIn="false" value="../../../ext/freertos/portable/GCC/ARM_CM4FQN9090"/>
+									<listOptionValue builtIn="false" value="../../../ext/freertos/portable/MemMang"/>
+									<listOptionValue builtIn="false" value="../../../firmware_images/SR040/"/>
+									<listOptionValue builtIn="false" value="../../../libs/halimpl/gki/common"/>
+									<listOptionValue builtIn="false" value="../../../libs/halimpl/gki/freertos"/>
+									<listOptionValue builtIn="false" value="../../../libs/halimpl/gki/ulinux"/>
+									<listOptionValue builtIn="false" value="../../../libs/halimpl/hal"/>
+									<listOptionValue builtIn="false" value="../../../libs/halimpl/inc"/>
+									<listOptionValue builtIn="false" value="../../../libs/halimpl/log"/>
+									<listOptionValue builtIn="false" value="../../../libs/halimpl/osal"/>
+									<listOptionValue builtIn="false" value="../../../libs/halimpl/tml"/>
+									<listOptionValue builtIn="false" value="../../../libs/halimpl/transport/SPI"/>
+									<listOptionValue builtIn="false" value="../../../libs/halimpl/transport/SPI/qn9090"/>
+									<listOptionValue builtIn="false" value="../../../libs/halimpl/utils"/>
+									<listOptionValue builtIn="false" value="../../../libs/halimpl/utils/SR040"/>
+									<listOptionValue builtIn="false" value="../../../libs/uci-core/uci/include"/>
+									<listOptionValue builtIn="false" value="../../../libs/uci-core/uci/include/SR040"/>
+									<listOptionValue builtIn="false" value="../../../libs/uci-core/uwa/dm"/>
+									<listOptionValue builtIn="false" value="../../../libs/uci-core/uwa/include"/>
+									<listOptionValue builtIn="false" value="../../../libs/uci-core/uwa/sys"/>
+									<listOptionValue builtIn="false" value="../../../libs/uci-core/uwb/include"/>
+									<listOptionValue builtIn="false" value="../../../libs/uci-core/uwb/uci"/>
+									<listOptionValue builtIn="false" value="../../../libs/uci-core/uwb/uwb"/>
+									<listOptionValue builtIn="false" value="../../../libs/uwb-iot/swup/"/>
+									<listOptionValue builtIn="false" value="../../../libs/uwb-iot/uwb_api/Api"/>
+									<listOptionValue builtIn="false" value="../../../libs/uwb-iot/uwb_api/Api/SR040"/>
+									<listOptionValue builtIn="false" value="../../../libs/uwb-iot/uwb_api/PrintUtility"/>
+									<listOptionValue builtIn="false" value="../../../libs/uwb-iot/uwb_api/PrintUtility/SR040"/>
+									<listOptionValue builtIn="false" value="../../../libs/uwb-iot/uwb_api/Types"/>
+									<listOptionValue builtIn="false" value="../../../libs/uwb-iot/uwb_api/Types/SR040"/>
+									<listOptionValue builtIn="false" value="../../../libs/uwb-iot/uwb_core/adaptation"/>
+									<listOptionValue builtIn="false" value="../../../libs/uwb-iot/uwb_core/gki/common"/>
+									<listOptionValue builtIn="false" value="../../../libs/uwb-iot/uwb_core/gki/freertos"/>
+									<listOptionValue builtIn="false" value="../../../libs/uwb-iot/uwb_core/hal/include"/>
+									<listOptionValue builtIn="false" value="../../../libs/uwb-iot/uwb_core/include"/>
+									<listOptionValue builtIn="false" value="../../../ext/boards/qn9090/bluetooth/common/inc"/>
+									<listOptionValue builtIn="false" value="../../../ext/boards/qn9090/bluetooth/common/gatt_db/inc"/>
+									<listOptionValue builtIn="false" value="../../../ext/boards/qn9090/bluetooth/common/gatt_db/macros/inc"/>
+									<listOptionValue builtIn="false" value="../../../ext/boards/qn9090/bluetooth/controller/config/inc"/>
+									<listOptionValue builtIn="false" value="../../../ext/boards/qn9090/bluetooth/controller/interface/inc"/>
+									<listOptionValue builtIn="false" value="../../../ext/boards/qn9090/bluetooth/framework/Common/inc"/>
+									<listOptionValue builtIn="false" value="../../../ext/boards/qn9090/bluetooth/framework/Flash/inc"/>
+									<listOptionValue builtIn="false" value="../../../ext/boards/qn9090/bluetooth/framework/FunctionLib/inc"/>
+									<listOptionValue builtIn="false" value="../../../ext/boards/qn9090/bluetooth/framework/GPIO/inc"/>
+									<listOptionValue builtIn="false" value="../../../ext/boards/qn9090/bluetooth/framework/Keyboard/inc"/>
+									<listOptionValue builtIn="false" value="../../../ext/boards/qn9090/bluetooth/framework/LED/inc"/>
+									<listOptionValue builtIn="false" value="../../../ext/boards/qn9090/bluetooth/framework/Lists/inc"/>
+									<listOptionValue builtIn="false" value="../../../ext/boards/qn9090/bluetooth/framework/Logging/inc"/>
+									<listOptionValue builtIn="false" value="../../../ext/boards/qn9090/bluetooth/framework/LowPower/inc"/>
+									<listOptionValue builtIn="false" value="../../../ext/boards/qn9090/bluetooth/framework/MemManager/inc"/>
+									<listOptionValue builtIn="false" value="../../../ext/boards/qn9090/bluetooth/framework/Messaging/inc"/>
+									<listOptionValue builtIn="false" value="../../../ext/boards/qn9090/bluetooth/framework/ModuleInfo/inc"/>
+									<listOptionValue builtIn="false" value="../../../ext/boards/qn9090/bluetooth/framework/MWSCoexistence/inc"/>
+									<listOptionValue builtIn="false" value="../../../ext/boards/qn9090/bluetooth/framework/NVM/inc"/>
+									<listOptionValue builtIn="false" value="../../../ext/boards/qn9090/bluetooth/framework/OSAbstraction/inc"/>
+									<listOptionValue builtIn="false" value="../../../ext/boards/qn9090/bluetooth/framework/Panic/inc"/>
+									<listOptionValue builtIn="false" value="../../../ext/boards/qn9090/bluetooth/framework/PDM/inc"/>
+									<listOptionValue builtIn="false" value="../../../ext/boards/qn9090/bluetooth/framework/Reset/inc"/>
+									<listOptionValue builtIn="false" value="../../../ext/boards/qn9090/bluetooth/framework/RNG/inc"/>
+									<listOptionValue builtIn="false" value="../../../ext/boards/qn9090/bluetooth/framework/SecLib/inc"/>
+									<listOptionValue builtIn="false" value="../../../ext/boards/qn9090/bluetooth/framework/SerialManager/inc"/>
+									<listOptionValue builtIn="false" value="../../../ext/boards/qn9090/bluetooth/framework/TimersManager/inc"/>
+									<listOptionValue builtIn="false" value="../../../ext/boards/qn9090/bluetooth/framework/XCVR/DK6/inc"/>
+									<listOptionValue builtIn="false" value="../../../ext/boards/qn9090/bluetooth/hci_transport/inc"/>
+									<listOptionValue builtIn="false" value="../../../ext/boards/qn9090/bluetooth/host/config/inc"/>
+									<listOptionValue builtIn="false" value="../../../ext/boards/qn9090/bluetooth/host/interface/inc"/>
+									<listOptionValue builtIn="false" value="../../../ext/boards/qn9090/bluetooth/profiles/battery/inc"/>
+									<listOptionValue builtIn="false" value="../../../ext/boards/qn9090/bluetooth/profiles/device_info/inc"/>
+									<listOptionValue builtIn="false" value="../../../ext/boards/qn9090/bluetooth/profiles/private_profile/inc"/>
+									<listOptionValue builtIn="false" value="../../../demos/SR040/demo_tracker_ble/handlers/inc"/>
+									<listOptionValue builtIn="false" value="../../../demos/SR040/demo_tracker_ble/inc"/>
+									<listOptionValue builtIn="false" value="../../../libs/halimpl/transport/SPI/common"/>
+								</option>
+								<option id="gnu.cpp.compiler.option.include.files.1836154365" name="Include files (-include)" superClass="gnu.cpp.compiler.option.include.files" useByScannerDiscovery="false"/>
+								<option id="gnu.cpp.compiler.option.optimization.flags.2031199565" name="Other optimization flags" superClass="gnu.cpp.compiler.option.optimization.flags" useByScannerDiscovery="false" value="-fno-common" valueType="string"/>
+								<option id="gnu.cpp.compiler.option.debugging.other.22209977" name="Other debugging flags" superClass="gnu.cpp.compiler.option.debugging.other" useByScannerDiscovery="false"/>
+								<option id="gnu.cpp.compiler.option.debugging.prof.834759585" name="Generate prof information (-p)" superClass="gnu.cpp.compiler.option.debugging.prof" useByScannerDiscovery="false"/>
+								<option id="gnu.cpp.compiler.option.debugging.gprof.2035721653" name="Generate gprof information (-pg)" superClass="gnu.cpp.compiler.option.debugging.gprof" useByScannerDiscovery="false"/>
+								<option id="gnu.cpp.compiler.option.debugging.codecov.1131505983" name="Generate gcov information (-ftest-coverage -fprofile-arcs)" superClass="gnu.cpp.compiler.option.debugging.codecov" useByScannerDiscovery="false"/>
+								<option id="gnu.cpp.compiler.option.warnings.syntax.629790091" name="Check syntax only (-fsyntax-only)" superClass="gnu.cpp.compiler.option.warnings.syntax" useByScannerDiscovery="false"/>
+								<option id="gnu.cpp.compiler.option.warnings.pedantic.2019483730" name="Pedantic (-pedantic)" superClass="gnu.cpp.compiler.option.warnings.pedantic" useByScannerDiscovery="false"/>
+								<option id="gnu.cpp.compiler.option.warnings.pedantic.error.1573624818" name="Pedantic warnings as errors (-pedantic-errors)" superClass="gnu.cpp.compiler.option.warnings.pedantic.error" useByScannerDiscovery="false"/>
+								<option id="gnu.cpp.compiler.option.warnings.nowarn.723223059" name="Inhibit all warnings (-w)" superClass="gnu.cpp.compiler.option.warnings.nowarn" useByScannerDiscovery="false"/>
+								<option id="gnu.cpp.compiler.option.warnings.allwarn.95504941" name="All warnings (-Wall)" superClass="gnu.cpp.compiler.option.warnings.allwarn" useByScannerDiscovery="false"/>
+								<option id="gnu.cpp.compiler.option.warnings.extrawarn.520881365" name="Extra warnings (-Wextra)" superClass="gnu.cpp.compiler.option.warnings.extrawarn" useByScannerDiscovery="false"/>
+								<option id="gnu.cpp.compiler.option.warnings.toerrors.780451238" name="Warnings as errors (-Werror)" superClass="gnu.cpp.compiler.option.warnings.toerrors" useByScannerDiscovery="false"/>
+								<option id="gnu.cpp.compiler.option.warnings.wconversion.1110832566" name="Implicit conversion warnings (-Wconversion)" superClass="gnu.cpp.compiler.option.warnings.wconversion" useByScannerDiscovery="false"/>
+								<option id="gnu.cpp.compiler.option.other.other.1718701800" name="Other flags" superClass="gnu.cpp.compiler.option.other.other" useByScannerDiscovery="false" value="-c -ffunction-sections -fdata-sections -ffreestanding -fno-builtin -fno-rtti -fno-exceptions  -include &quot;${ProjDirPath}../../../boards/Host/QN9090_SR040_TR3/app_preinclude.h&quot;" valueType="string"/>
+								<option id="gnu.cpp.compiler.option.other.verbose.1536016911" name="Verbose (-v)" superClass="gnu.cpp.compiler.option.other.verbose" useByScannerDiscovery="false"/>
+								<option id="gnu.cpp.compiler.option.other.pic.2019726994" name="Position Independent Code (-fPIC)" superClass="gnu.cpp.compiler.option.other.pic" useByScannerDiscovery="false"/>
+								<option id="com.crt.advproject.cpp.lto.1164298303" name="Enable Link-time optimization (-flto)" superClass="com.crt.advproject.cpp.lto" useByScannerDiscovery="false"/>
+								<option id="com.crt.advproject.cpp.lto.fat.156624063" name="Fat lto objects (-ffat-lto-objects)" superClass="com.crt.advproject.cpp.lto.fat" useByScannerDiscovery="false"/>
+								<option id="com.crt.advproject.cpp.merge.constants.1477014971" name="Merge Identical Constants (-fmerge-constants)" superClass="com.crt.advproject.cpp.merge.constants" useByScannerDiscovery="false"/>
+								<option id="com.crt.advproject.cpp.prefixmap.82371902" name="Remove path from __FILE__ (-fmacro-prefix-map)" superClass="com.crt.advproject.cpp.prefixmap" useByScannerDiscovery="false"/>
+								<option id="com.crt.advproject.cpp.fpu.339069424" name="Floating point" superClass="com.crt.advproject.cpp.fpu" useByScannerDiscovery="true"/>
+								<option id="com.crt.advproject.cpp.thumbinterwork.1110130650" name="Enable Thumb interworking" superClass="com.crt.advproject.cpp.thumbinterwork" useByScannerDiscovery="false"/>
+								<option id="com.crt.advproject.cpp.securestate.1566350245" name="TrustZone Project Type" superClass="com.crt.advproject.cpp.securestate" useByScannerDiscovery="false"/>
+								<option id="com.crt.advproject.cpp.hdrlib.1033340289" name="Library headers" superClass="com.crt.advproject.cpp.hdrlib" useByScannerDiscovery="false"/>
+								<option id="com.crt.advproject.cpp.stackusage.114161191" name="Generate Stack Usage Info (-fstack-usage)" superClass="com.crt.advproject.cpp.stackusage" useByScannerDiscovery="false"/>
+								<option id="com.crt.advproject.cpp.config.1707681178" name="Obsolete (Config)" superClass="com.crt.advproject.cpp.config" useByScannerDiscovery="false"/>
+								<option id="com.crt.advproject.cpp.store.45212232" name="Obsolete (Store)" superClass="com.crt.advproject.cpp.store" useByScannerDiscovery="false"/>
+								<inputType id="com.crt.advproject.compiler.cpp.input.1570164617" superClass="com.crt.advproject.compiler.cpp.input"/>
+							</tool>
+							<tool id="com.crt.advproject.gcc.exe.release.107521431" name="MCU C Compiler" superClass="com.crt.advproject.gcc.exe.release">
+								<option id="com.crt.advproject.gcc.thumb.977330073" name="Thumb mode" superClass="com.crt.advproject.gcc.thumb" useByScannerDiscovery="false" value="true" valueType="boolean"/>
+								<option id="com.crt.advproject.gcc.hdrlib.1257311959" name="Library headers" superClass="com.crt.advproject.gcc.hdrlib" useByScannerDiscovery="false" value="com.crt.advproject.gcc.hdrlib.newlibnano" valueType="enumerated"/>
+								<option id="com.crt.advproject.gcc.specs.934149432" name="Specs" superClass="com.crt.advproject.gcc.specs" useByScannerDiscovery="false" value="com.crt.advproject.gcc.specs.newlibnano" valueType="enumerated"/>
+								<option id="com.crt.advproject.gcc.arch.827738393" name="Architecture" superClass="com.crt.advproject.gcc.arch" useByScannerDiscovery="true" value="com.crt.advproject.gcc.target.cm4" valueType="enumerated"/>
+								<option id="com.crt.advproject.c.misc.dialect.1301329567" name="Language standard" superClass="com.crt.advproject.c.misc.dialect" useByScannerDiscovery="true"/>
+								<option id="gnu.c.compiler.option.dialect.flags.1235384401" name="Other dialect flags" superClass="gnu.c.compiler.option.dialect.flags" useByScannerDiscovery="true"/>
+								<option id="gnu.c.compiler.option.preprocessor.nostdinc.294020144" name="Do not search system directories (-nostdinc)" superClass="gnu.c.compiler.option.preprocessor.nostdinc" useByScannerDiscovery="false"/>
+								<option id="gnu.c.compiler.option.preprocessor.preprocess.973324635" name="Preprocess only (-E)" superClass="gnu.c.compiler.option.preprocessor.preprocess" useByScannerDiscovery="false"/>
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="gnu.c.compiler.option.preprocessor.def.symbols.1907518086" name="Defined symbols (-D)" superClass="gnu.c.compiler.option.preprocessor.def.symbols" useByScannerDiscovery="false" valueType="definedSymbols">
+									<listOptionValue builtIn="false" value="CPU_QN9090HN"/>
+									<listOptionValue builtIn="false" value="SUPPORT_FOR_BLE=1"/>
+									<listOptionValue builtIn="false" value="PRINTF_ADVANCED_ENABLE=1"/>
+									<listOptionValue builtIn="false" value="CPU_QN9090HN_cm4"/>
+									<listOptionValue builtIn="false" value="CPU_QN9090"/>
+									<listOptionValue builtIn="false" value="__APP_DEBUG"/>
+									<listOptionValue builtIn="false" value="__ASSERT_LL_DEBUG"/>
+									<listOptionValue builtIn="false" value="__CPU_JN518X_REV=1"/>
+									<listOptionValue builtIn="false" value="CR_PRINTF_CHAR"/>
+									<listOptionValue builtIn="false" value="SDK_DEBUGCONSOLE=1"/>
+									<listOptionValue builtIn="false" value="CR_INTEGER_PRINTF"/>
+									<listOptionValue builtIn="false" value="QN9090DK6"/>
+									<listOptionValue builtIn="false" value="DK6"/>
+									<listOptionValue builtIn="false" value="CPU_JN518X"/>
+									<listOptionValue builtIn="false" value="CFG_BLE_PRJ=1"/>
+									<listOptionValue builtIn="false" value="ENABLE_RAM_VECTOR_TABLE=1"/>
+									<listOptionValue builtIn="false" value="gSupportBle=1"/>
+									<listOptionValue builtIn="false" value="FSL_RTOS_FREE_RTOS"/>
+									<listOptionValue builtIn="false" value="PRINTF_FLOAT_ENABLE=1"/>
+									<listOptionValue builtIn="false" value="__MCUXPRESSO"/>
+									<listOptionValue builtIn="false" value="__USE_CMSIS"/>
+									<listOptionValue builtIn="false" value="DEBUG"/>
+									<listOptionValue builtIn="false" value="__NEWLIB__"/>
+								</option>
+								<option id="gnu.c.compiler.option.preprocessor.undef.symbol.884302123" name="Undefined symbols (-U)" superClass="gnu.c.compiler.option.preprocessor.undef.symbol" useByScannerDiscovery="false"/>
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="gnu.c.compiler.option.include.paths.377951532" name="Include paths (-I)" superClass="gnu.c.compiler.option.include.paths" useByScannerDiscovery="false" valueType="includePath">
+									<listOptionValue builtIn="false" value="../../../binaries/UWBD/SR040/"/>
+									<listOptionValue builtIn="false" value="../../../demos/SR040/demo_swup_update_fw"/>
+									<listOptionValue builtIn="false" value="../../../demos/SR040/demo_swup_update_dsp"/>
+									<listOptionValue builtIn="false" value="../../../boards/Host/QN9090_SR040_TR3"/>
+									<listOptionValue builtIn="false" value="../../../boards/QN9090_SR040_TR3_SPI"/>
+									<listOptionValue builtIn="false" value="../../../boards/TML/SPI"/>
+									<listOptionValue builtIn="false" value="../../../demos/common"/>
+									<listOptionValue builtIn="false" value="../../../demos/demo_qn9090"/>
+									<listOptionValue builtIn="false" value="../../../demos/pnp"/>
+									<listOptionValue builtIn="false" value="../../../demos/pnp/QN9090"/>
+									<listOptionValue builtIn="false" value="../../../ext/boards/qn9090/CMSIS/Include"/>
+									<listOptionValue builtIn="false" value="../../../ext/boards/qn9090/components"/>
+									<listOptionValue builtIn="false" value="../../../ext/boards/qn9090/components/uart"/>
+									<listOptionValue builtIn="false" value="../../../ext/boards/qn9090/devices/QN9090"/>
+									<listOptionValue builtIn="false" value="../../../ext/boards/qn9090/devices/QN9090/drivers"/>
+									<listOptionValue builtIn="false" value="../../../ext/boards/qn9090/devices/QN9090/gcc"/>
+									<listOptionValue builtIn="false" value="../../../ext/boards/qn9090/devices/QN9090/utilities"/>
+									<listOptionValue builtIn="false" value="../../../ext/freertos/hooks"/>
+									<listOptionValue builtIn="false" value="../../../ext/freertos/include"/>
+									<listOptionValue builtIn="false" value="../../../ext/freertos/portable/GCC/ARM_CM4FQN9090"/>
+									<listOptionValue builtIn="false" value="../../../ext/freertos/portable/MemMang"/>
+									<listOptionValue builtIn="false" value="../../../firmware_images/SR040/"/>
+									<listOptionValue builtIn="false" value="../../../libs/halimpl/gki/common"/>
+									<listOptionValue builtIn="false" value="../../../libs/halimpl/gki/freertos"/>
+									<listOptionValue builtIn="false" value="../../../libs/halimpl/gki/ulinux"/>
+									<listOptionValue builtIn="false" value="../../../libs/halimpl/hal"/>
+									<listOptionValue builtIn="false" value="../../../libs/halimpl/inc"/>
+									<listOptionValue builtIn="false" value="../../../libs/halimpl/log"/>
+									<listOptionValue builtIn="false" value="../../../libs/halimpl/osal"/>
+									<listOptionValue builtIn="false" value="../../../libs/halimpl/tml"/>
+									<listOptionValue builtIn="false" value="../../../libs/halimpl/transport/SPI"/>
+									<listOptionValue builtIn="false" value="../../../libs/halimpl/transport/SPI/qn9090"/>
+									<listOptionValue builtIn="false" value="../../../libs/halimpl/utils"/>
+									<listOptionValue builtIn="false" value="../../../libs/halimpl/utils/SR040"/>
+									<listOptionValue builtIn="false" value="../../../libs/uci-core/uci/include"/>
+									<listOptionValue builtIn="false" value="../../../libs/uci-core/uci/include/SR040"/>
+									<listOptionValue builtIn="false" value="../../../libs/uci-core/uwa/dm"/>
+									<listOptionValue builtIn="false" value="../../../libs/uci-core/uwa/include"/>
+									<listOptionValue builtIn="false" value="../../../libs/uci-core/uwa/sys"/>
+									<listOptionValue builtIn="false" value="../../../libs/uci-core/uwb/include"/>
+									<listOptionValue builtIn="false" value="../../../libs/uci-core/uwb/uci"/>
+									<listOptionValue builtIn="false" value="../../../libs/uci-core/uwb/uwb"/>
+									<listOptionValue builtIn="false" value="../../../libs/uwb-iot/swup/"/>
+									<listOptionValue builtIn="false" value="../../../libs/uwb-iot/uwb_api/Api"/>
+									<listOptionValue builtIn="false" value="../../../libs/uwb-iot/uwb_api/Api/SR040"/>
+									<listOptionValue builtIn="false" value="../../../libs/uwb-iot/uwb_api/PrintUtility"/>
+									<listOptionValue builtIn="false" value="../../../libs/uwb-iot/uwb_api/PrintUtility/SR040"/>
+									<listOptionValue builtIn="false" value="../../../libs/uwb-iot/uwb_api/Types"/>
+									<listOptionValue builtIn="false" value="../../../libs/uwb-iot/uwb_api/Types/SR040"/>
+									<listOptionValue builtIn="false" value="../../../libs/uwb-iot/uwb_core/adaptation"/>
+									<listOptionValue builtIn="false" value="../../../libs/uwb-iot/uwb_core/gki/common"/>
+									<listOptionValue builtIn="false" value="../../../libs/uwb-iot/uwb_core/gki/freertos"/>
+									<listOptionValue builtIn="false" value="../../../libs/uwb-iot/uwb_core/hal/include"/>
+									<listOptionValue builtIn="false" value="../../../libs/uwb-iot/uwb_core/include"/>
+									<listOptionValue builtIn="false" value="../../../ext/boards/qn9090/bluetooth/common/inc"/>
+									<listOptionValue builtIn="false" value="../../../ext/boards/qn9090/bluetooth/common/gatt_db/inc"/>
+									<listOptionValue builtIn="false" value="../../../ext/boards/qn9090/bluetooth/common/gatt_db/macros/inc"/>
+									<listOptionValue builtIn="false" value="../../../ext/boards/qn9090/bluetooth/controller/config/inc"/>
+									<listOptionValue builtIn="false" value="../../../ext/boards/qn9090/bluetooth/controller/interface/inc"/>
+									<listOptionValue builtIn="false" value="../../../ext/boards/qn9090/bluetooth/framework/Common/inc"/>
+									<listOptionValue builtIn="false" value="../../../ext/boards/qn9090/bluetooth/framework/Flash/inc"/>
+									<listOptionValue builtIn="false" value="../../../ext/boards/qn9090/bluetooth/framework/FunctionLib/inc"/>
+									<listOptionValue builtIn="false" value="../../../ext/boards/qn9090/bluetooth/framework/GPIO/inc"/>
+									<listOptionValue builtIn="false" value="../../../ext/boards/qn9090/bluetooth/framework/Keyboard/inc"/>
+									<listOptionValue builtIn="false" value="../../../ext/boards/qn9090/bluetooth/framework/LED/inc"/>
+									<listOptionValue builtIn="false" value="../../../ext/boards/qn9090/bluetooth/framework/Lists/inc"/>
+									<listOptionValue builtIn="false" value="../../../ext/boards/qn9090/bluetooth/framework/Logging/inc"/>
+									<listOptionValue builtIn="false" value="../../../ext/boards/qn9090/bluetooth/framework/LowPower/inc"/>
+									<listOptionValue builtIn="false" value="../../../ext/boards/qn9090/bluetooth/framework/MemManager/inc"/>
+									<listOptionValue builtIn="false" value="../../../ext/boards/qn9090/bluetooth/framework/Messaging/inc"/>
+									<listOptionValue builtIn="false" value="../../../ext/boards/qn9090/bluetooth/framework/ModuleInfo/inc"/>
+									<listOptionValue builtIn="false" value="../../../ext/boards/qn9090/bluetooth/framework/MWSCoexistence/inc"/>
+									<listOptionValue builtIn="false" value="../../../ext/boards/qn9090/bluetooth/framework/NVM/inc"/>
+									<listOptionValue builtIn="false" value="../../../ext/boards/qn9090/bluetooth/framework/OSAbstraction/inc"/>
+									<listOptionValue builtIn="false" value="../../../ext/boards/qn9090/bluetooth/framework/Panic/inc"/>
+									<listOptionValue builtIn="false" value="../../../ext/boards/qn9090/bluetooth/framework/PDM/inc"/>
+									<listOptionValue builtIn="false" value="../../../ext/boards/qn9090/bluetooth/framework/Reset/inc"/>
+									<listOptionValue builtIn="false" value="../../../ext/boards/qn9090/bluetooth/framework/RNG/inc"/>
+									<listOptionValue builtIn="false" value="../../../ext/boards/qn9090/bluetooth/framework/SecLib/inc"/>
+									<listOptionValue builtIn="false" value="../../../ext/boards/qn9090/bluetooth/framework/SerialManager/inc"/>
+									<listOptionValue builtIn="false" value="../../../ext/boards/qn9090/bluetooth/framework/TimersManager/inc"/>
+									<listOptionValue builtIn="false" value="../../../ext/boards/qn9090/bluetooth/framework/XCVR/DK6/inc"/>
+									<listOptionValue builtIn="false" value="../../../ext/boards/qn9090/bluetooth/hci_transport/inc"/>
+									<listOptionValue builtIn="false" value="../../../ext/boards/qn9090/bluetooth/host/config/inc"/>
+									<listOptionValue builtIn="false" value="../../../ext/boards/qn9090/bluetooth/host/interface/inc"/>
+									<listOptionValue builtIn="false" value="../../../ext/boards/qn9090/bluetooth/profiles/battery/inc"/>
+									<listOptionValue builtIn="false" value="../../../ext/boards/qn9090/bluetooth/profiles/device_info/inc"/>
+									<listOptionValue builtIn="false" value="../../../ext/boards/qn9090/bluetooth/profiles/private_profile/inc"/>
+									<listOptionValue builtIn="false" value="../../../demos/SR040/demo_tracker_ble/handlers/inc"/>
+									<listOptionValue builtIn="false" value="../../../demos/SR040/demo_tracker_ble/inc"/>
+									<listOptionValue builtIn="false" value="../../../libs/halimpl/transport/SPI/common"/>
+								</option>
+								<option id="gnu.c.compiler.option.include.files.963112221" name="Include files (-include)" superClass="gnu.c.compiler.option.include.files" useByScannerDiscovery="false"/>
+								<option id="gnu.c.compiler.option.optimization.flags.1375032450" name="Other optimization flags" superClass="gnu.c.compiler.option.optimization.flags" useByScannerDiscovery="false" value="-fno-common" valueType="string"/>
+								<option id="gnu.c.compiler.option.debugging.other.539845440" name="Other debugging flags" superClass="gnu.c.compiler.option.debugging.other" useByScannerDiscovery="false"/>
+								<option id="gnu.c.compiler.option.debugging.prof.2081156073" name="Generate prof information (-p)" superClass="gnu.c.compiler.option.debugging.prof" useByScannerDiscovery="false"/>
+								<option id="gnu.c.compiler.option.debugging.gprof.1218079681" name="Generate gprof information (-pg)" superClass="gnu.c.compiler.option.debugging.gprof" useByScannerDiscovery="false"/>
+								<option id="gnu.c.compiler.option.debugging.codecov.440316271" name="Generate gcov information (-ftest-coverage -fprofile-arcs)" superClass="gnu.c.compiler.option.debugging.codecov" useByScannerDiscovery="false"/>
+								<option id="gnu.c.compiler.option.warnings.syntax.294220112" name="Check syntax only (-fsyntax-only)" superClass="gnu.c.compiler.option.warnings.syntax" useByScannerDiscovery="false"/>
+								<option id="gnu.c.compiler.option.warnings.pedantic.232100336" name="Pedantic (-pedantic)" superClass="gnu.c.compiler.option.warnings.pedantic" useByScannerDiscovery="false"/>
+								<option id="gnu.c.compiler.option.warnings.pedantic.error.712672708" name="Pedantic warnings as errors (-pedantic-errors)" superClass="gnu.c.compiler.option.warnings.pedantic.error" useByScannerDiscovery="false"/>
+								<option id="gnu.c.compiler.option.warnings.nowarn.923423756" name="Inhibit all warnings (-w)" superClass="gnu.c.compiler.option.warnings.nowarn" useByScannerDiscovery="false"/>
+								<option id="gnu.c.compiler.option.warnings.allwarn.1515449305" name="All warnings (-Wall)" superClass="gnu.c.compiler.option.warnings.allwarn" useByScannerDiscovery="false"/>
+								<option id="gnu.c.compiler.option.warnings.extrawarn.2000748422" name="Extra warnings (-Wextra)" superClass="gnu.c.compiler.option.warnings.extrawarn" useByScannerDiscovery="false"/>
+								<option id="gnu.c.compiler.option.warnings.toerrors.1598429149" name="Warnings as errors (-Werror)" superClass="gnu.c.compiler.option.warnings.toerrors" useByScannerDiscovery="false"/>
+								<option id="gnu.c.compiler.option.warnings.wconversion.1582582335" name="Implicit conversion warnings (-Wconversion)" superClass="gnu.c.compiler.option.warnings.wconversion" useByScannerDiscovery="false"/>
+								<option id="gnu.c.compiler.option.misc.other.910097102" name="Other flags" superClass="gnu.c.compiler.option.misc.other" useByScannerDiscovery="false" value="-c -ffunction-sections -fdata-sections -ffreestanding -fno-builtin -include &quot;${ProjDirPath}../../../boards/Host/QN9090_SR040_TR3/app_preinclude.h&quot;" valueType="string"/>
+								<option id="gnu.c.compiler.option.misc.verbose.112980405" name="Verbose (-v)" superClass="gnu.c.compiler.option.misc.verbose" useByScannerDiscovery="false"/>
+								<option id="gnu.c.compiler.option.misc.ansi.1139736306" name="Support ANSI programs (-ansi)" superClass="gnu.c.compiler.option.misc.ansi" useByScannerDiscovery="false"/>
+								<option id="gnu.c.compiler.option.misc.pic.1330368736" name="Position Independent Code (-fPIC)" superClass="gnu.c.compiler.option.misc.pic" useByScannerDiscovery="false"/>
+								<option id="com.crt.advproject.gcc.lto.643740347" name="Enable Link-time optimization (-flto)" superClass="com.crt.advproject.gcc.lto" useByScannerDiscovery="false"/>
+								<option id="com.crt.advproject.gcc.lto.fat.1287999124" name="Fat lto objects (-ffat-lto-objects)" superClass="com.crt.advproject.gcc.lto.fat" useByScannerDiscovery="false"/>
+								<option id="com.crt.advproject.gcc.merge.constants.780836850" name="Merge Identical Constants (-fmerge-constants)" superClass="com.crt.advproject.gcc.merge.constants" useByScannerDiscovery="false"/>
+								<option id="com.crt.advproject.gcc.prefixmap.478946515" name="Remove path from __FILE__ (-fmacro-prefix-map)" superClass="com.crt.advproject.gcc.prefixmap" useByScannerDiscovery="false"/>
+								<option id="com.crt.advproject.gcc.fpu.1021161352" name="Floating point" superClass="com.crt.advproject.gcc.fpu" useByScannerDiscovery="true"/>
+								<option id="com.crt.advproject.gcc.thumbinterwork.239038211" name="Enable Thumb interworking" superClass="com.crt.advproject.gcc.thumbinterwork" useByScannerDiscovery="false"/>
+								<option id="com.crt.advproject.gcc.securestate.1638082775" name="TrustZone Project Type" superClass="com.crt.advproject.gcc.securestate" useByScannerDiscovery="false"/>
+								<option id="com.crt.advproject.gcc.stackusage.1898620064" name="Generate Stack Usage Info (-fstack-usage)" superClass="com.crt.advproject.gcc.stackusage" useByScannerDiscovery="false"/>
+								<option id="com.crt.advproject.gcc.config.1381389669" name="Obsolete (Config)" superClass="com.crt.advproject.gcc.config" useByScannerDiscovery="false"/>
+								<option id="com.crt.advproject.gcc.store.596728637" name="Obsolete (Store)" superClass="com.crt.advproject.gcc.store" useByScannerDiscovery="false"/>
+								<inputType id="com.crt.advproject.compiler.input.149675143" superClass="com.crt.advproject.compiler.input"/>
+							</tool>
+							<tool id="com.crt.advproject.gas.exe.release.830099893" name="MCU Assembler" superClass="com.crt.advproject.gas.exe.release">
+								<option id="com.crt.advproject.gas.thumb.1239680637" name="Thumb mode" superClass="com.crt.advproject.gas.thumb" useByScannerDiscovery="false" value="true" valueType="boolean"/>
+								<option id="com.crt.advproject.gas.hdrlib.900064842" name="Library headers" superClass="com.crt.advproject.gas.hdrlib" useByScannerDiscovery="false" value="com.crt.advproject.gas.hdrlib.newlibnano" valueType="enumerated"/>
+								<option id="com.crt.advproject.gas.specs.282329887" name="Specs" superClass="com.crt.advproject.gas.specs" useByScannerDiscovery="false" value="com.crt.advproject.gas.specs.newlibnano" valueType="enumerated"/>
+								<option id="com.crt.advproject.gas.arch.1445852972" name="Architecture" superClass="com.crt.advproject.gas.arch" useByScannerDiscovery="false" value="com.crt.advproject.gas.target.cm4" valueType="enumerated"/>
+								<option id="gnu.both.asm.option.flags.crt.1715298712" name="Assembler flags" superClass="gnu.both.asm.option.flags.crt" useByScannerDiscovery="false" value="-c -x assembler-with-cpp -D__NEWLIB__" valueType="string"/>
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="gnu.both.asm.option.include.paths.1216625106" name="Include paths (-I)" superClass="gnu.both.asm.option.include.paths" useByScannerDiscovery="false" valueType="includePath">
+									<listOptionValue builtIn="false" value="../../../binaries/UWBD/SR040/"/>
+									<listOptionValue builtIn="false" value="../../../boards/Host/QN9090_SR040_TR3"/>
+									<listOptionValue builtIn="false" value="../../../boards/QN9090_SR040_TR3_SPI"/>
+									<listOptionValue builtIn="false" value="../../../boards/TML/SPI"/>
+									<listOptionValue builtIn="false" value="../../../demos/common"/>
+									<listOptionValue builtIn="false" value="../../../demos/demo_qn9090"/>
+									<listOptionValue builtIn="false" value="../../../ext/boards/qn9090/CMSIS/Include"/>
+									<listOptionValue builtIn="false" value="../../../ext/boards/qn9090/components"/>
+									<listOptionValue builtIn="false" value="../../../ext/boards/qn9090/components/uart"/>
+									<listOptionValue builtIn="false" value="../../../ext/boards/qn9090/devices/QN9090"/>
+									<listOptionValue builtIn="false" value="../../../ext/boards/qn9090/devices/QN9090/drivers"/>
+									<listOptionValue builtIn="false" value="../../../ext/boards/qn9090/devices/QN9090/gcc"/>
+									<listOptionValue builtIn="false" value="../../../ext/boards/qn9090/devices/QN9090/utilities"/>
+									<listOptionValue builtIn="false" value="../../../ext/freertos/hooks"/>
+									<listOptionValue builtIn="false" value="../../../ext/freertos/include"/>
+									<listOptionValue builtIn="false" value="../../../ext/freertos/portable/GCC/ARM_CM4FQN9090"/>
+									<listOptionValue builtIn="false" value="../../../ext/freertos/portable/MemMang"/>
+									<listOptionValue builtIn="false" value="../../../firmware_images/SR040/"/>
+									<listOptionValue builtIn="false" value="../../../libs/halimpl/gki/common"/>
+									<listOptionValue builtIn="false" value="../../../libs/halimpl/gki/freertos"/>
+									<listOptionValue builtIn="false" value="../../../libs/halimpl/gki/ulinux"/>
+									<listOptionValue builtIn="false" value="../../../libs/halimpl/hal"/>
+									<listOptionValue builtIn="false" value="../../../libs/halimpl/inc"/>
+									<listOptionValue builtIn="false" value="../../../libs/halimpl/log"/>
+									<listOptionValue builtIn="false" value="../../../libs/halimpl/osal"/>
+									<listOptionValue builtIn="false" value="../../../libs/halimpl/tml"/>
+									<listOptionValue builtIn="false" value="../../../libs/halimpl/transport/SPI"/>
+									<listOptionValue builtIn="false" value="../../../libs/halimpl/transport/SPI/qn9090"/>
+									<listOptionValue builtIn="false" value="../../../libs/halimpl/utils"/>
+									<listOptionValue builtIn="false" value="../../../libs/halimpl/utils/SR040"/>
+									<listOptionValue builtIn="false" value="../../../libs/uci-core/uci/include"/>
+									<listOptionValue builtIn="false" value="../../../libs/uci-core/uci/include/SR040"/>
+									<listOptionValue builtIn="false" value="../../../libs/uci-core/uwa/dm"/>
+									<listOptionValue builtIn="false" value="../../../libs/uci-core/uwa/include"/>
+									<listOptionValue builtIn="false" value="../../../libs/uci-core/uwa/sys"/>
+									<listOptionValue builtIn="false" value="../../../libs/uci-core/uwb/include"/>
+									<listOptionValue builtIn="false" value="../../../libs/uci-core/uwb/uci"/>
+									<listOptionValue builtIn="false" value="../../../libs/uci-core/uwb/uwb"/>
+									<listOptionValue builtIn="false" value="../../../libs/uwb-iot/swup/"/>
+									<listOptionValue builtIn="false" value="../../../libs/uwb-iot/uwb_api/Api"/>
+									<listOptionValue builtIn="false" value="../../../libs/uwb-iot/uwb_api/Api/SR040"/>
+									<listOptionValue builtIn="false" value="../../../libs/uwb-iot/uwb_api/PrintUtility"/>
+									<listOptionValue builtIn="false" value="../../../libs/uwb-iot/uwb_api/PrintUtility/SR040"/>
+									<listOptionValue builtIn="false" value="../../../libs/uwb-iot/uwb_api/Types"/>
+									<listOptionValue builtIn="false" value="../../../libs/uwb-iot/uwb_api/Types/SR040"/>
+									<listOptionValue builtIn="false" value="../../../libs/uwb-iot/uwb_core/adaptation"/>
+									<listOptionValue builtIn="false" value="../../../libs/uwb-iot/uwb_core/gki/common"/>
+									<listOptionValue builtIn="false" value="../../../libs/uwb-iot/uwb_core/gki/freertos"/>
+									<listOptionValue builtIn="false" value="../../../libs/uwb-iot/uwb_core/hal/include"/>
+									<listOptionValue builtIn="false" value="../../../libs/uwb-iot/uwb_core/include"/>
+								</option>
+								<option id="gnu.both.asm.option.warnings.nowarn.903225220" name="Suppress warnings (-W)" superClass="gnu.both.asm.option.warnings.nowarn" useByScannerDiscovery="false"/>
+								<option id="gnu.both.asm.option.version.1112463624" name="Announce version (-v)" superClass="gnu.both.asm.option.version" useByScannerDiscovery="false"/>
+								<option id="com.crt.advproject.gas.fpu.500354611" name="Floating point" superClass="com.crt.advproject.gas.fpu" useByScannerDiscovery="false"/>
+								<option id="com.crt.advproject.gas.thumbinterwork.2117762399" name="Enable Thumb interworking" superClass="com.crt.advproject.gas.thumbinterwork" useByScannerDiscovery="false"/>
+								<option id="com.crt.advproject.gas.config.1089901162" name="Obsolete (Config)" superClass="com.crt.advproject.gas.config" useByScannerDiscovery="false"/>
+								<option id="com.crt.advproject.gas.store.1812447342" name="Obsolete (Store)" superClass="com.crt.advproject.gas.store" useByScannerDiscovery="false"/>
+								<inputType id="cdt.managedbuild.tool.gnu.assembler.input.657936478" superClass="cdt.managedbuild.tool.gnu.assembler.input"/>
+								<inputType id="com.crt.advproject.assembler.input.97877794" name="Additional Assembly Source Files" superClass="com.crt.advproject.assembler.input"/>
+							</tool>
+							<tool id="com.crt.advproject.link.cpp.exe.release.83034893" name="MCU C++ Linker" superClass="com.crt.advproject.link.cpp.exe.release">
+								<option id="com.crt.advproject.link.cpp.thumb.2066042719" name="Thumb mode" superClass="com.crt.advproject.link.cpp.thumb" useByScannerDiscovery="false" value="true" valueType="boolean"/>
+								<option id="com.crt.advproject.link.memory.load.image.cpp.1111545428" name="Plain load image" superClass="com.crt.advproject.link.memory.load.image.cpp" useByScannerDiscovery="false" value="false;" valueType="string"/>
+								<option defaultValue="com.crt.advproject.heapAndStack.mcuXpressoStyle.cpp" id="com.crt.advproject.link.memory.heapAndStack.style.cpp.995010032" name="Heap and Stack placement" superClass="com.crt.advproject.link.memory.heapAndStack.style.cpp" useByScannerDiscovery="false" value="com.crt.advproject.heapAndStack.mcuXpressoStyle.cpp" valueType="enumerated"/>
+								<option id="com.crt.advproject.link.memory.heapAndStack.cpp.902701764" name="Heap and Stack options" superClass="com.crt.advproject.link.memory.heapAndStack.cpp" useByScannerDiscovery="false" value="&amp;Heap:Default;Post Data;Default&amp;Stack:Default;End;Default" valueType="string"/>
+								<option id="com.crt.advproject.link.memory.data.cpp.1613394109" name="Global data placement" superClass="com.crt.advproject.link.memory.data.cpp" useByScannerDiscovery="false" value="Default" valueType="string"/>
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="true" id="com.crt.advproject.link.memory.sections.cpp.1208235648" name="Extra linker script input sections" superClass="com.crt.advproject.link.memory.sections.cpp" useByScannerDiscovery="false" valueType="stringList"/>
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="true" id="com.crt.advproject.link.cpp.multicore.master.userobjs.1831677756" name="Slave Objects (not visible)" superClass="com.crt.advproject.link.cpp.multicore.master.userobjs" useByScannerDiscovery="false" valueType="userObjs"/>
+								<option id="com.crt.advproject.link.cpp.arch.1270165932" name="Architecture" superClass="com.crt.advproject.link.cpp.arch" useByScannerDiscovery="false" value="com.crt.advproject.link.cpp.target.cm4" valueType="enumerated"/>
+								<option id="gnu.cpp.link.option.nostart.1279430914" name="Do not use standard start files (-nostartfiles)" superClass="gnu.cpp.link.option.nostart" useByScannerDiscovery="false"/>
+								<option id="gnu.cpp.link.option.nodeflibs.207345636" name="Do not use default libraries (-nodefaultlibs)" superClass="gnu.cpp.link.option.nodeflibs" useByScannerDiscovery="false"/>
+								<option id="gnu.cpp.link.option.nostdlibs.1495306942" name="No startup or default libs (-nostdlib)" superClass="gnu.cpp.link.option.nostdlibs" useByScannerDiscovery="false" value="true" valueType="boolean"/>
+								<option id="gnu.cpp.link.option.strip.1282845115" name="Omit all symbol information (-s)" superClass="gnu.cpp.link.option.strip" useByScannerDiscovery="false"/>
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="gnu.cpp.link.option.libs.815650198" name="Libraries (-l)" superClass="gnu.cpp.link.option.libs" useByScannerDiscovery="false" valueType="libs">
+									<listOptionValue builtIn="false" value="_crypto_m4"/>
+									<listOptionValue builtIn="false" value="Radio"/>
+									<listOptionValue builtIn="false" value="_ble_controller"/>
+									<listOptionValue builtIn="false" value="PDM"/>
+									<listOptionValue builtIn="false" value="_ble_5-0_host_cm4_noFP"/>
+								</option>
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="gnu.cpp.link.option.paths.1247693142" name="Library search path (-L)" superClass="gnu.cpp.link.option.paths" useByScannerDiscovery="false" valueType="libPaths">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/ext/boards/qn9090/bluetooth/libs}&quot;"/>
+								</option>
+								<option id="gnu.cpp.link.option.flags.1544737730" name="Linker flags" superClass="gnu.cpp.link.option.flags" useByScannerDiscovery="false"/>
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="gnu.cpp.link.option.other.1130506550" name="Other options (-Xlinker [option])" superClass="gnu.cpp.link.option.other" useByScannerDiscovery="false" valueType="stringList">
+									<listOptionValue builtIn="false" value="-Map=&quot;${BuildArtifactFileBaseName}.map&quot;"/>
+									<listOptionValue builtIn="false" value="--no-wchar-size-warning"/>
+									<listOptionValue builtIn="false" value="--defsym=__app_stated_size__=0x90000"/>
+									<listOptionValue builtIn="false" value="--defsym=__ram_vector_table__=1"/>
+									<listOptionValue builtIn="false" value="--defsym=gUseNVMLink_d=1"/>
+									<listOptionValue builtIn="false" value="--gc-sections"/>
+									<listOptionValue builtIn="false" value="-print-memory-usage"/>
+									<listOptionValue builtIn="false" value="--sort-section=alignment"/>
+									<listOptionValue builtIn="false" value="--cref"/>
+								</option>
+								<option id="gnu.cpp.link.option.userobjs.1604568646" name="Other objects" superClass="gnu.cpp.link.option.userobjs" useByScannerDiscovery="false"/>
+								<option id="gnu.cpp.link.option.shared.1749665911" name="Shared (-shared)" superClass="gnu.cpp.link.option.shared" useByScannerDiscovery="false"/>
+								<option id="gnu.cpp.link.option.soname.262109759" name="Shared object name (-Wl,-soname=)" superClass="gnu.cpp.link.option.soname" useByScannerDiscovery="false"/>
+								<option id="gnu.cpp.link.option.implname.1020116028" name="Import Library name (-Wl,--out-implib=)" superClass="gnu.cpp.link.option.implname" useByScannerDiscovery="false"/>
+								<option id="gnu.cpp.link.option.defname.2013074297" name="DEF file name (-Wl,--output-def=)" superClass="gnu.cpp.link.option.defname" useByScannerDiscovery="false"/>
+								<option id="gnu.cpp.link.option.debugging.prof.1872402600" name="Generate prof information (-p)" superClass="gnu.cpp.link.option.debugging.prof" useByScannerDiscovery="false"/>
+								<option id="gnu.cpp.link.option.debugging.gprof.671188948" name="Generate gprof information (-pg)" superClass="gnu.cpp.link.option.debugging.gprof" useByScannerDiscovery="false"/>
+								<option id="gnu.cpp.link.option.debugging.codecov.2004498374" name="Generate gcov information (-ftest-coverage -fprofile-arcs)" superClass="gnu.cpp.link.option.debugging.codecov" useByScannerDiscovery="false"/>
+								<option id="com.crt.advproject.link.cpp.lto.1634197330" name="Enable Link-time optimization (-flto)" superClass="com.crt.advproject.link.cpp.lto" useByScannerDiscovery="false"/>
+								<option id="com.crt.advproject.link.cpp.lto.optmization.level.838913459" name="Link-time optimization level" superClass="com.crt.advproject.link.cpp.lto.optmization.level" useByScannerDiscovery="false"/>
+								<option id="com.crt.advproject.link.cpp.fpu.567677058" name="Floating point" superClass="com.crt.advproject.link.cpp.fpu" useByScannerDiscovery="false"/>
+								<option id="com.crt.advproject.link.cpp.manage.535863396" name="Manage linker script" superClass="com.crt.advproject.link.cpp.manage" useByScannerDiscovery="false" value="false" valueType="boolean"/>
+								<option id="com.crt.advproject.link.cpp.script.215262980" name="Linker script" superClass="com.crt.advproject.link.cpp.script" useByScannerDiscovery="false" value="QN9090_UWB_TAG_FW.ld" valueType="string"/>
+								<option id="com.crt.advproject.link.cpp.scriptdir.512409938" name="Script path" superClass="com.crt.advproject.link.cpp.scriptdir" useByScannerDiscovery="false" value="../../../boards/QN9090_SR040_TR3_SPI/" valueType="string"/>
+								<option id="com.crt.advproject.link.cpp.crpenable.1290333353" name="Enable automatic placement of Code Read Protection field in image" superClass="com.crt.advproject.link.cpp.crpenable" useByScannerDiscovery="false"/>
+								<option id="com.crt.advproject.link.cpp.flashconfigenable.1016331042" name="Enable automatic placement of Flash Configuration field in image" superClass="com.crt.advproject.link.cpp.flashconfigenable" useByScannerDiscovery="false" value="true" valueType="boolean"/>
+								<option id="com.crt.advproject.link.cpp.ecrp.390117000" name="Enhanced CRP" superClass="com.crt.advproject.link.cpp.ecrp" useByScannerDiscovery="false"/>
+								<option id="com.crt.advproject.link.cpp.hdrlib.1042460495" name="Library" superClass="com.crt.advproject.link.cpp.hdrlib" useByScannerDiscovery="false" value="com.crt.advproject.cpp.link.hdrlib.newlibnano.nohost" valueType="enumerated"/>
+								<option id="com.crt.advproject.link.cpp.nanofloat.1104634714" name="Enable printf float " superClass="com.crt.advproject.link.cpp.nanofloat" useByScannerDiscovery="false"/>
+								<option id="com.crt.advproject.link.cpp.nanofloat.scanf.1813155100" name="Enable scanf float " superClass="com.crt.advproject.link.cpp.nanofloat.scanf" useByScannerDiscovery="false"/>
+								<option id="com.crt.advproject.link.cpp.toram.1353777214" name="Link application to RAM" superClass="com.crt.advproject.link.cpp.toram" useByScannerDiscovery="false"/>
+								<option id="com.crt.advproject.link.cpp.stackOffset.1286634526" name="Stack offset" superClass="com.crt.advproject.link.cpp.stackOffset" useByScannerDiscovery="false"/>
+								<option id="com.crt.advproject.link.cpp.multicore.slave.1813016065" name="Multicore configuration" superClass="com.crt.advproject.link.cpp.multicore.slave" useByScannerDiscovery="false"/>
+								<option id="com.crt.advproject.link.cpp.multicore.master.1114953875" name="Multicore master" superClass="com.crt.advproject.link.cpp.multicore.master" useByScannerDiscovery="false"/>
+								<option id="com.crt.advproject.link.cpp.multicore.empty.812135665" name="No Multicore options for this project" superClass="com.crt.advproject.link.cpp.multicore.empty" useByScannerDiscovery="false"/>
+								<option id="com.crt.advproject.link.cpp.config.1270265776" name="Obsolete (Config)" superClass="com.crt.advproject.link.cpp.config" useByScannerDiscovery="false"/>
+								<option id="com.crt.advproject.link.cpp.store.1962982025" name="Obsolete (Store)" superClass="com.crt.advproject.link.cpp.store" useByScannerDiscovery="false"/>
+								<option id="com.crt.advproject.link.cpp.securestate.1522230951" name="TrustZone Project Type" superClass="com.crt.advproject.link.cpp.securestate" useByScannerDiscovery="false"/>
+								<option id="com.crt.advproject.link.cpp.sgstubs.placement.705559365" name="Secure Gateway Placement" superClass="com.crt.advproject.link.cpp.sgstubs.placement" useByScannerDiscovery="false"/>
+								<option id="com.crt.advproject.link.cpp.sgstubenable.2105538809" name="Enable generation of Secure Gateway Import Library" superClass="com.crt.advproject.link.cpp.sgstubenable" useByScannerDiscovery="false"/>
+								<option id="com.crt.advproject.link.cpp.nonsecureobject.1266292892" name="Secure Gateway Import Library" superClass="com.crt.advproject.link.cpp.nonsecureobject" useByScannerDiscovery="false"/>
+								<option id="com.crt.advproject.link.cpp.inimplib.639047322" name="Input Secure Gateway Import Library" superClass="com.crt.advproject.link.cpp.inimplib" useByScannerDiscovery="false"/>
+								<inputType id="cdt.managedbuild.tool.gnu.cpp.linker.input.639205319" superClass="cdt.managedbuild.tool.gnu.cpp.linker.input">
+									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
+									<additionalInput kind="additionalinput" paths="$(LIBS)"/>
+								</inputType>
+							</tool>
+							<tool id="com.crt.advproject.link.exe.release.529111983" name="MCU Linker" superClass="com.crt.advproject.link.exe.release">
+								<option id="com.crt.advproject.link.arch.1335036756" name="Architecture" superClass="com.crt.advproject.link.arch" value="com.crt.advproject.link.target.cm4" valueType="enumerated"/>
+								<option id="gnu.c.link.option.nostart.1548982637" name="Do not use standard start files (-nostartfiles)" superClass="gnu.c.link.option.nostart"/>
+								<option id="gnu.c.link.option.nodeflibs.923392750" name="Do not use default libraries (-nodefaultlibs)" superClass="gnu.c.link.option.nodeflibs"/>
+								<option id="gnu.c.link.option.nostdlibs.1711408636" name="No startup or default libs (-nostdlib)" superClass="gnu.c.link.option.nostdlibs" value="true" valueType="boolean"/>
+								<option id="gnu.c.link.option.strip.1049119462" name="Omit all symbol information (-s)" superClass="gnu.c.link.option.strip"/>
+								<option id="gnu.c.link.option.noshared.268413274" name="No shared libraries (-static)" superClass="gnu.c.link.option.noshared"/>
+								<option id="gnu.c.link.option.libs.1366545394" name="Libraries (-l)" superClass="gnu.c.link.option.libs"/>
+								<option id="gnu.c.link.option.paths.1074006164" name="Library search path (-L)" superClass="gnu.c.link.option.paths"/>
+								<option id="gnu.c.link.option.ldflags.1491134692" name="Linker flags" superClass="gnu.c.link.option.ldflags"/>
+								<option id="gnu.c.link.option.other.2107486370" name="Other options (-Xlinker [option])" superClass="gnu.c.link.option.other"/>
+								<option id="gnu.c.link.option.userobjs.878489680" name="Other objects" superClass="gnu.c.link.option.userobjs"/>
+								<option id="gnu.c.link.option.shared.1566099703" name="Shared (-shared)" superClass="gnu.c.link.option.shared"/>
+								<option id="gnu.c.link.option.soname.137233030" name="Shared object name (-Wl,-soname=)" superClass="gnu.c.link.option.soname"/>
+								<option id="gnu.c.link.option.implname.412005626" name="Import Library name (-Wl,--out-implib=)" superClass="gnu.c.link.option.implname"/>
+								<option id="gnu.c.link.option.defname.556806090" name="DEF file name (-Wl,--output-def=)" superClass="gnu.c.link.option.defname"/>
+								<option id="gnu.c.link.option.debugging.prof.1280996998" name="Generate prof information (-p)" superClass="gnu.c.link.option.debugging.prof"/>
+								<option id="gnu.c.link.option.debugging.gprof.611292636" name="Generate gprof information (-pg)" superClass="gnu.c.link.option.debugging.gprof"/>
+								<option id="gnu.c.link.option.debugging.codecov.1359942332" name="Generate gcov information (-ftest-coverage -fprofile-arcs)" superClass="gnu.c.link.option.debugging.codecov"/>
+								<option id="com.crt.advproject.link.gcc.lto.597353100" name="Enable Link-time optimization (-flto)" superClass="com.crt.advproject.link.gcc.lto"/>
+								<option id="com.crt.advproject.link.gcc.lto.optmization.level.859414906" name="Link-time optimization level" superClass="com.crt.advproject.link.gcc.lto.optmization.level"/>
+								<option id="com.crt.advproject.link.fpu.1825713097" name="Floating point" superClass="com.crt.advproject.link.fpu"/>
+								<option id="com.crt.advproject.link.thumb.1120915116" name="Thumb mode" superClass="com.crt.advproject.link.thumb"/>
+								<option id="com.crt.advproject.link.manage.1793270876" name="Manage linker script" superClass="com.crt.advproject.link.manage" value="true" valueType="boolean"/>
+								<option id="com.crt.advproject.link.script.348520470" name="Linker script" superClass="com.crt.advproject.link.script"/>
+								<option id="com.crt.advproject.link.scriptdir.725284449" name="Script path" superClass="com.crt.advproject.link.scriptdir"/>
+								<option id="com.crt.advproject.link.crpenable.1878896764" name="Enable automatic placement of Code Read Protection field in image" superClass="com.crt.advproject.link.crpenable"/>
+								<option id="com.crt.advproject.link.flashconfigenable.1419184128" name="Enable automatic placement of Flash Configuration field in image" superClass="com.crt.advproject.link.flashconfigenable" value="true" valueType="boolean"/>
+								<option id="com.crt.advproject.link.ecrp.819180412" name="Enhanced CRP" superClass="com.crt.advproject.link.ecrp"/>
+								<option id="com.crt.advproject.link.gcc.hdrlib.1243005712" name="Library" superClass="com.crt.advproject.link.gcc.hdrlib" value="com.crt.advproject.gcc.link.hdrlib.newlibnano.nohost" valueType="enumerated"/>
+								<option id="com.crt.advproject.link.gcc.nanofloat.747437024" name="Enable printf float " superClass="com.crt.advproject.link.gcc.nanofloat"/>
+								<option id="com.crt.advproject.link.gcc.nanofloat.scanf.1952167391" name="Enable scanf float " superClass="com.crt.advproject.link.gcc.nanofloat.scanf"/>
+								<option id="com.crt.advproject.link.toram.389202200" name="Link application to RAM" superClass="com.crt.advproject.link.toram"/>
+								<option id="com.crt.advproject.link.memory.load.image.1386138932" name="Plain load image" superClass="com.crt.advproject.link.memory.load.image"/>
+								<option id="com.crt.advproject.link.memory.heapAndStack.style.597374961" name="Heap and Stack placement" superClass="com.crt.advproject.link.memory.heapAndStack.style"/>
+								<option id="com.crt.advproject.link.stackOffset.359291981" name="Stack offset" superClass="com.crt.advproject.link.stackOffset"/>
+								<option id="com.crt.advproject.link.memory.heapAndStack.1871797527" name="Heap and Stack options" superClass="com.crt.advproject.link.memory.heapAndStack"/>
+								<option id="com.crt.advproject.link.memory.data.446226561" name="Global data placement" superClass="com.crt.advproject.link.memory.data"/>
+								<option id="com.crt.advproject.link.memory.sections.344142814" name="Extra linker script input sections" superClass="com.crt.advproject.link.memory.sections"/>
+								<option id="com.crt.advproject.link.gcc.multicore.slave.122381689" name="Multicore configuration" superClass="com.crt.advproject.link.gcc.multicore.slave"/>
+								<option id="com.crt.advproject.link.gcc.multicore.master.2061799" name="Multicore master" superClass="com.crt.advproject.link.gcc.multicore.master"/>
+								<option id="com.crt.advproject.link.gcc.multicore.master.userobjs.1368212482" name="Slave Objects (not visible)" superClass="com.crt.advproject.link.gcc.multicore.master.userobjs"/>
+								<option id="com.crt.advproject.link.gcc.multicore.empty.347433228" name="No Multicore options for this project" superClass="com.crt.advproject.link.gcc.multicore.empty"/>
+								<option id="com.crt.advproject.link.config.1222042106" name="Obsolete (Config)" superClass="com.crt.advproject.link.config"/>
+								<option id="com.crt.advproject.link.store.1721864545" name="Obsolete (Store)" superClass="com.crt.advproject.link.store"/>
+								<option id="com.crt.advproject.link.securestate.1507887428" name="TrustZone Project Type" superClass="com.crt.advproject.link.securestate"/>
+								<option id="com.crt.advproject.link.sgstubs.placement.1319567513" name="Secure Gateway Placement" superClass="com.crt.advproject.link.sgstubs.placement"/>
+								<option id="com.crt.advproject.link.sgstubenable.720092905" name="Enable generation of Secure Gateway Import Library" superClass="com.crt.advproject.link.sgstubenable"/>
+								<option id="com.crt.advproject.link.nonsecureobject.170764742" name="Secure Gateway Import Library" superClass="com.crt.advproject.link.nonsecureobject"/>
+								<option id="com.crt.advproject.link.inimplib.1951609726" name="Input Secure Gateway Import Library" superClass="com.crt.advproject.link.inimplib"/>
+							</tool>
+							<tool id="com.crt.advproject.tool.debug.release.1193667792" name="MCU Debugger" superClass="com.crt.advproject.tool.debug.release">
+								<option id="com.crt.advproject.miscellaneous.end_of_heap.482571181" name="Last used address of the heap" superClass="com.crt.advproject.miscellaneous.end_of_heap" useByScannerDiscovery="false"/>
+								<option id="com.crt.advproject.miscellaneous.pvHeapStart.204243285" name="First address of the heap" superClass="com.crt.advproject.miscellaneous.pvHeapStart" useByScannerDiscovery="false"/>
+								<option id="com.crt.advproject.miscellaneous.pvHeapLimit.412636087" name="Maximum extent of heap" superClass="com.crt.advproject.miscellaneous.pvHeapLimit" useByScannerDiscovery="false"/>
+								<option id="com.crt.advproject.debugger.security.nonsecureimageenable.614404703" name="Enable pre-programming of Non-Secure Image" superClass="com.crt.advproject.debugger.security.nonsecureimageenable" useByScannerDiscovery="false"/>
+								<option id="com.crt.advproject.debugger.security.nonsecureimage.2048482421" name="Non-Secure Project" superClass="com.crt.advproject.debugger.security.nonsecureimage" useByScannerDiscovery="false"/>
+							</tool>
+						</toolChain>
+					</folderInfo>
+					<sourceEntries>
+						<entry excluding="demos/SR040/demo_tdoa_tag|demos/SR040/demo_tdoa_tag/common/Standalone_Main.c|demos/SR040/demo_swup_update_dsp|demos/SR040/demo_radio_configs_safe|demos/SR040/demo_radio_configs_safe/common/Standalone_Main.c|demos/SR040/demo_swup_update_fw|demos/SR040/demo_tdoa_tag/common/Standalone_Main_S32K.c|demos/SR040/demo_tdoa_tag/common/AppCallbacks_cdc.c|demos/SR040/demo_radio_configs_safe/common/Standalone_Main_S32K.c|demos/SR040/demo_radio_configs_safe/common/AppCallbacks_cdc.c|demos/SR040/demo_radio_configs_forced|demos/SR040/demo_tracker_ble|demos/SR040/demo_test_modes|demos/SR040/demo_test_modes/common/Standalone_Main.c|demos/SR040/demo_test_modes/common/Standalone_Main_S32K.c|demos/SR040/demo_test_modes/common/Standalone_Main_PCFreeRTOS.c|demos/SR040/demo_test_modes/common/AppCallbacks_cdc.c|demos/SR040/demo_tracker_ble/common/AppCallbacks_cdc.c|libs/uwb-iot/uwb_core/gki/linux|demos/SR040/demo_tracker_ble/common/Standalone_Main_PCFreeRTOS.c|demos/SR040/demo_tracker_ble/common/Standalone_Main.c|demos/SR040/demo_tracker_ble/common/Standalone_Main_S32K.c|libs/halimpl/osal/phOsalUwb_Timer_linux.cc|libs/halimpl/osal/phOsalUwb_linux.cc|libs/halimpl/tml/phDal4Uwb_messageQueueLib_linux.cc|demos/SR040/demo_radio_configs_forced/common/Standalone_Main.c|demos/SR040/demo_radio_configs_forced/common/Standalone_Main_S32K.c|demos/SR040/demo_radio_configs_forced/common/Standalone_Main_PCFreeRTOS.c|demos/SR040/demo_radio_configs_forced/common/AppCallbacks_cdc.c|demos/SR040/pnp|demos/SR040/pnp/rhodes|demos/SR040/demo_tracker_sr040/common/Standalone_Main.c|demos/SR040/demo_tracker_sr040/common/Standalone_Main_S32K.c|demos/SR040/demo_tracker_sr040/common/Standalone_Main_PCFreeRTOS.c|demos/SR040/demo_tracker_sr040/common/AppCallbacks_cdc.c|demos/SR040/demo_swup_update_fw/common/Standalone_Main.c|demos/SR040/demo_swup_update_fw/common/Standalone_Main_S32K.c|demos/SR040/demo_swup_update_fw/common/Standalone_Main_PCFreeRTOS.c|demos/SR040/demo_swup_update_fw/common/AppCallbacks_cdc.c|demos/SR040/demo_swup_update_dsp/common/Standalone_Main.c|demos/SR040/demo_swup_update_dsp/common/Standalone_Main_S32K.c|demos/SR040/demo_swup_update_dsp/common/Standalone_Main_PCFreeRTOS.c|demos/SR040/demo_swup_update_dsp/common/AppCallbacks_cdc.c|Debug|demos/SR040/radio_configs/common/Standalone_Main.c|demos/SR040/radio_configs/common/Standalone_Main_S32K.c|demos/SR040/radio_configs/common/Standalone_Main_PCFreeRTOS.c|demos/SR040/radio_configs/common/AppCallbacks_cdc.c|libs/halimpl/transport/SPI/s32k|ext/boards/qn9090/devices/QN9090/gcc/startup_qn9090.cpp|ext/boards/qn9090/devices/QN9090/gcc/startup_QN9090.S|ext/freertos/portable/GCC/ARM_CM4FTL|ext/freertos/portable/MemMang/heap_5.c|ext/freertos/portable/MemMang/heap_3.c|ext/freertos/portable/MemMang/heap_2.c|ext/freertos/portable/MemMang/heap_1.c|ext/freertos/portable/ThirdParty|ext/freertos/portable/MSVC-MingW|ext/freertos/portable/GCC/ARM_CM4F|ext/freertos/portable/GCC/ARM_CM3|ext/freertos/portable/GCC/ARM_CM0|libs/halimpl/utils/SR100T|libs/halimpl/transport/Socket|libs/halimpl/transport/serial|libs/halimpl/transport/PnP|libs/halimpl/transport/usbrpc|libs/halimpl/transport/S32Uart|libs/halimpl/transport/SPI/K32W042|libs/uwb-iot/uwb_api/Api/SR100T|libs/uwb-iot/uwb_api/PrintUtility/SR100T|demos/common/Standalone_Main.c|demos/common/AppCallbacks_cdc.c|demos/common/Standalone_Main_S32K.c|demos/common/Standalone_Main_PCFreeRTOS.c" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+					</sourceEntries>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+		</cconfiguration>
+	</storageModule>
+	<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+		<project id="QN9090_SR040.null.1964366846" name="QN9090_SR040" projectType="com.crt.advproject.projecttype.exe"/>
+	</storageModule>
+	<storageModule moduleId="org.eclipse.cdt.core.LanguageSettingsProviders"/>
+	<storageModule moduleId="com.nxp.mcuxpresso.core.datamodels">
+		<sdkName>SDK_2.x_board_QN9090DK6</sdkName>
+		<sdkVersion>2.6.2</sdkVersion>
+		<sdkComponents>middleware.baremetal.QN9090;component.lists.QN9090;component.serial_manager.QN9090;component.serial_manager_uart.QN9090;component.usart_adapter.QN9090;device.QN9090_CMSIS.QN9090;platform.Include_common.QN9090;platform.Include_core_cm4.QN9090;platform.drivers.clock.QN9090;platform.drivers.common.QN9090;platform.drivers.flexcomm.QN9090;platform.drivers.flexcomm_usart.QN9090;platform.drivers.jn_iocon.QN9090;platform.drivers.jn_romapi.QN9090;platform.drivers.power_no_lib.QN9090;platform.drivers.reset.QN9090;utility.debug_console.QN9090;device.QN9090_startup.QN9090;</sdkComponents>
+		<package>QN9090HN</package>
+		<core>cm4</core>
+		<coreId>cm4_QN9090</coreId>
+	</storageModule>
+	<storageModule moduleId="com.crt.config">
+		<projectStorage>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&#13;
+&lt;TargetConfig&gt;&#13;
+&lt;Properties property_3="NXP" property_4="QN9090" property_count="5" version="100300"/&gt;&#13;
+&lt;infoList vendor="NXP"&gt;&#13;
+&lt;info chip="QN9090" name="QN9090"&gt;&#13;
+&lt;chip&gt;&#13;
+&lt;name&gt;QN9090&lt;/name&gt;&#13;
+&lt;family&gt;QN909x&lt;/family&gt;&#13;
+&lt;vendor&gt;NXP&lt;/vendor&gt;&#13;
+&lt;memory can_program="true" id="Flash" is_ro="true" size="640" type="Flash"/&gt;&#13;
+&lt;memory id="RAM" size="152" type="RAM"/&gt;&#13;
+&lt;memoryInstance derived_from="Flash" driver="QN9090_640K.cfx" id="PROGRAM_FLASH" location="0x00000000" size="0x000a0000"/&gt;&#13;
+&lt;memoryInstance derived_from="RAM" id="SRAM" location="0x04000000" size="0x00015fe0"/&gt;&#13;
+&lt;memoryInstance derived_from="RAM" id="SRAM1" location="0x04020000" size="0x00010000"/&gt;&#13;
+&lt;/chip&gt;&#13;
+&lt;processor&gt;&#13;
+&lt;name gcc_name="cortex-m4"&gt;Cortex-M4&lt;/name&gt;&#13;
+&lt;family&gt;Cortex-M&lt;/family&gt;&#13;
+&lt;/processor&gt;&#13;
+&lt;/info&gt;&#13;
+&lt;/infoList&gt;&#13;
+&lt;/TargetConfig&gt;</projectStorage>
+	</storageModule>
+	<storageModule moduleId="org.eclipse.cdt.make.core.buildtargets"/>
+	<storageModule moduleId="refreshScope" versionNumber="2">
+		<configuration configurationName="Debug">
+			<resource resourceType="PROJECT" workspacePath="/QN9090_SR040_TR3"/>
+		</configuration>
+		<configuration configurationName="Release">
+			<resource resourceType="PROJECT" workspacePath="/QN9090_SR040_TR3"/>
+		</configuration>
+	</storageModule>
+	<storageModule moduleId="scannerConfiguration">
+		<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		<scannerConfigBuildInfo instanceId="com.crt.advproject.config.exe.debug.1870856720;com.crt.advproject.config.exe.debug.1870856720.;com.crt.advproject.gcc.exe.debug.1269606695;com.crt.advproject.compiler.input.129914250">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="com.crt.advproject.config.exe.debug.1870856720;com.crt.advproject.config.exe.debug.1870856720.;com.crt.advproject.gas.exe.debug.412849197;com.crt.advproject.assembler.input.14721158">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="com.crt.advproject.config.exe.debug.1870856720;com.crt.advproject.config.exe.debug.1870856720.;com.crt.advproject.cpp.exe.debug.1688587247;com.crt.advproject.compiler.cpp.input.290778450">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="com.crt.advproject.config.exe.release.341931395;com.crt.advproject.config.exe.release.341931395.;com.crt.advproject.gcc.exe.release.107521431;com.crt.advproject.compiler.input.149675143">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="com.crt.advproject.config.exe.release.341931395;com.crt.advproject.config.exe.release.341931395.;com.crt.advproject.cpp.exe.release.231120751;com.crt.advproject.compiler.cpp.input.1570164617">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="com.crt.advproject.config.exe.release.341931395;com.crt.advproject.config.exe.release.341931395.;com.crt.advproject.gas.exe.release.830099893;com.crt.advproject.assembler.input.97877794">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+	</storageModule>
+</cproject>

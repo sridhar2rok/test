@@ -1,0 +1,9 @@
+
+Scripts for post processing of QN9090 binaries
+
+license(s)          : LA_OPT_NXP_Software_License.htm
+License File        : LA_OPT_NXP_Software_License.htm - Production Use, Section 2.3 applies
+Distribution Type   : Source and Binary
+Version             : 2.6.1
+Location            : uwbiot-top\scripts\dk6_image_tool_py3.py and uwbiot-top\scripts\dk6_image_tool.py
+Source URL          : mcuxpresso.nxp.com

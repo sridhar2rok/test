@@ -1,0 +1,9 @@
+
+UWB IoT Core Middleware
+
+license(s)          : NXP Proprietary EULA
+License File        : See EULA.pdf in root of the folder
+Distribution Type   : Source And Binary
+Version             : Same as release package
+Location            : uwbiot-top\libs
+Source URL          : NA

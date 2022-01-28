@@ -1,0 +1,9 @@
+
+Amazon FreeRTOS Kernel
+
+license(s)          : MIT
+License File        : uwbiot-top\ext\freertos\LICENSE.md
+Distribution Type   : Source and Binary
+Version             : v10
+Location            : uwbiot-top\ext\freertos
+Source URL          : http://www.FreeRTOS.org/
